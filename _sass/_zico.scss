@@ -444,6 +444,10 @@ img {
 
 /**  Page Programs  **/
 .page-programs {
+    .main-content {
+        width: 900px;
+    }
+
     .featured-program {
         display: block;
         img {
@@ -451,37 +455,89 @@ img {
         }
     }
     .program-section {
-        margin-top: 60px;
         display: block;
         position: relative;
+        padding: 60px 0;
+        border-bottom: 1px solid #e0e0e0;
+        .heading {
+            margin-bottom: 20px;;
+            h2 {
+                color: $brandColor;
+                &::before {
+                    content: "/ ";
+                    color: $brandColor;
+                    font-size: 28px;
+                    font-weight: bold;
+                }
+            }
+            p {
+                margin-left: 22px;
+            }
+        }
         .program-item {
             overflow: hidden;
             padding: 2px;
-            margin: 20px 0;
+            padding: 20px 0;
             position: relative;
             display: block;
+            width: 100%;
             .cover {
-                width: 300px;
+                width: 320px;
                 height: 200px;
                 background-size: cover;
                 background-position: center;
+                border-radius: 4px;
                 float: left;
-                margin-right: 20px;
-                border-radius: 2px;
             }
             .content {
-                float: left;
+                float: right;
+                width: 520px;
                 .title {
-                    margin-top: 10px;
+                    margin: 0 0 15px 0;
                 }
                 .description {
- 
+                    line-height: 1.8;
                 }
                 .btn {
-                    border-radius: 50px;
-                    padding: 4px 15px;
-                    border: 1px solid #666;
-                    margin-top: 20px;
+                    line-height: 28px;
+                    min-width: 128px;
+                    border: 1px solid #1B2B4F;
+                    border-radius: 100px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #1B2B4F;
+                    text-transform: uppercase;
+                    padding: 0 15px;
+                    margin-top: 10px;
+
+                    &:hover {
+                        border-color: $brandColor;
+                        color: $brandColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-programs {
+        .program-section {
+            padding: 30px 0 20px 0;
+            .program-item {
+                .cover {
+                    float: inherit;
+                    width: 100%;
+                }
+                .content {
+                    float: inherit;
+                    width: 100%;
+                    .title {
+                        margin: 15px 0 10px 0;
+                    }
+                    .btn {
+                        display: none;
+                    }
                 }
             }
         }
@@ -706,10 +762,9 @@ img {
 
 .sidebar {
     margin-top: 5px;
-    padding-right: 40px;
     overflow: hidden;
+    width: 200px;
     .cbox {
-        position: fixed;
         border: none;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
@@ -718,6 +773,14 @@ img {
             padding: 0;
         }
     }
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
 
 .nopad {
@@ -1230,6 +1293,7 @@ table {
             }
         }
     }
+
 }
 
 

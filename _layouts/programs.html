@@ -6,116 +6,45 @@ layout: default
 
 <div class="container page page-programs">
   <div class="row">
-  	<div class="col-md-3 sidebar">
+  	<div class="left sidebar">
       <div class="cbox">
     		<ul>
+          {% for domain in site.data.programs %}
           <li>
-            <a data-scroll-target="section-1">
-              <i class="fa fa-coffee"></i>新冠<i class="fa fa-chevron-right right-arrow"></i>
+            <a data-scroll-target="section" href="#domain-{{ domain.title }}">
+              <i class="fa fa-pencil-square-o"></i>{{ domain.title }}<i class="fa fa-chevron-right right-arrow"></i>
             </a>
           </li>
-          <li>
-            <a data-scroll-target="section-2">
-              <i class="fa fa-pencil-square-o"></i>企业家精神<i class="fa fa-chevron-right right-arrow"></i>
-            </a>
-          </li>
-          <li>
-            <a data-scroll-target="section-2">
-              <i class="fa fa-pencil-square-o"></i>教育<i class="fa fa-chevron-right right-arrow"></i>
-            </a>
-          </li>
-          <li>
-            <a data-scroll-target="section-2">
-              <i class="fa fa-pencil-square-o"></i>医疗环保<i class="fa fa-chevron-right right-arrow"></i>
-            </a>
-          </li>
-          <li>
-            <a data-scroll-target="section-2">
-              <i class="fa fa-pencil-square-o"></i>女性领导力<i class="fa fa-chevron-right right-arrow"></i>
-            </a>
-          </li>
+          {% endfor %}
         </ul>
       </div>
 
   	</div>
-  	<div class="col-md-9 left-divider main-content">
+  	<div class="right main-content">
       <div class="featured-program">
         <img src="https://img.mayun.xin/upload/2020031410/07c11c7b48ec169709d455340d33450a.jpg?x-oss-process=image/crop,w_1600,h_300,limit_0/format,jpg/quality,Q_90/contrast,-90"/>
       </div>
-      <div class="program-section" data-scroll-flag="section-1" id="programs-entrepreneurship">
+
+      {% for domain in site.data.programs %}
+      <div class="program-section" data-scroll-flag="section-1" id="domain-{{ domain.title }}">
         <div class="heading">
-          <h2>Entrepreneurship</h2>
-          <p>让每个孩子成为最好的自己</p>
+          <h2>{{ domain.title }}</h2>
+          <p>{{ domain.vision }}</p>
         </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
+        {% for program in domain.members %}
+          <div class="program-item">
+            <div class="cover" style="background-image: url('{{ program.cover }}')"></div>
+            <div class="content">
+              <h3 class="title">{{ program.title }}</h3>
+              <p class="description">{{ program.intro }}</p>
+              {% if program.link %}
+                <a class="btn" href="{{ program.link }}">Learn More</a>
+              {% endif %}
+            </div>
           </div>
-        </div>
+        {% endfor %}
       </div>
-      <div class="program-section" data-scroll-flag="section-1" id="programs-education">
-        <div class="heading">
-          <h2>EDUCATION</h2>
-          <p>让每个孩子成为最好的自己</p>
-        </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="program-section" data-scroll-flag="section-1" id="programs-education">
-        <div class="heading">
-          <h2>EDUCATION</h2>
-          <p>让每个孩子成为最好的自己</p>
-        </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-        <div class="program-item">
-          <div class="cover" style="background-image: url(https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90)"></div>
-          <div class="content">
-            <h3 class="title">非洲青年创业者基金</h3>
-            <p class="description">哈哈哈哈</p>
-            <a class="btn">Learn More</a>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
       <article class="post-content">
 	    	{{ content }}
 	  	</article>
