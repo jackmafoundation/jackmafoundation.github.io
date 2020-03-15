@@ -244,6 +244,7 @@ img {
 .index-banner {
     background-image: url(https://img.mayun.xin/upload/2020031410/07c11c7b48ec169709d455340d33450a.jpg?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-60);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 600px;
@@ -265,6 +266,10 @@ img {
     .slogan-info {
         margin-top: 30px;
         font-size: 14px;
+    }
+    .btn {
+        color: #fafafa;
+        border: 1px solid #f0f0f0;
     }
 }
 
@@ -305,7 +310,6 @@ img {
         border-radius: 50px;
         margin: 8px 0;
         font-style: italic;
-        font-weight: 200;
         margin-right: 40px;
     }
     ul.news {
@@ -316,11 +320,16 @@ img {
         padding-inline-start: 0px;
         .news-item {
             list-style-type: none;
+            margin: 10px 0;
             .publish-date {
                 margin-right: 15px;
                 opacity: 0.8;
+                float: left;
             }
             .news-title {
+                display: block;
+                margin-left: 100px;
+                line-height: 1.6;
             }
         }
     }
@@ -1299,20 +1308,19 @@ img {
 ul.post-list {
     list-style: none;
     padding-left: 0px;
-    margin: 0 -20px;
+    margin: 0 auto;
+    width: 800px;
     li {
         font-size: 16px;
         margin-bottom: 25px;
         overflow: hidden;
-        width: 50%;
-        float: left;
-        padding: 0 20px;
+        background: #fafafa;
+        border-radius: 4px;
         .cover {
-            width: 180px;
-            height: 100px;
+            width: 200px;
+            height: 140px;
             background-size: cover;
             background-position: center;
-            border-radius: 4px;
             float: left;
             position: relative;
             &::after {
@@ -1330,8 +1338,8 @@ ul.post-list {
         }
         .content {
             display: block;
-            margin-left: 180px;
-            padding: 0 15px;
+            margin-left: 200px;
+            padding: 15px 20px;
         }
         .title {
             font-size: 16px;
@@ -1339,6 +1347,7 @@ ul.post-list {
             display: inherit;
             line-height: 1.6;
             font-weight: 500;
+            font-weight: bold;
         }
         .date {
             font-size: 14px;
@@ -1779,11 +1788,14 @@ table {
     .index-banner {
         height: 360px;
         .container {
-            display: none;
-            padding-top: 20px;
+            padding-top: 0;
         }
         .slogan {
             font-size: 20px;
+        }
+        .btn {
+            margin-top: 10px;
+            padding: 6px 40px;
         }
     }
     .page {
