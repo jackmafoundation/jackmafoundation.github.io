@@ -5,7 +5,7 @@ date:   2020-03-03 14:05:17
 author: Admin
 cover: https://img.mayun.xin/upload/2020030307/9b57cd497ca768a4ef35b9521e92b9c1.png?x-oss-process=image/resize,w_400,h_200,m_fill,limit_0/format,jpg/quality,Q_90
 permalink: /blog/au-doherty/
-tags: ["2019nCOV"]
+tags: [COVID-19]
 ---
 
 今天，马云公益基金会与澳大利亚Peter Doherty感染与免疫研究所（下称“Doherty研究所”）正式签署捐赠协议，将捐赠共计320万澳元（约1470万人民币）以支持后者针对新型冠状病毒（COVID-19）疫苗的研发工作，以期进一步加速疫苗的研发进程。

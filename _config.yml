@@ -32,3 +32,5 @@ qrcode: https://img.mayun.xin/upload/2020031417/8f47db56dd3861351d569e8b19d58dcb
 collections:
   startup:
     output: true
+  program:
+    output: true

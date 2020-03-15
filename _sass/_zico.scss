@@ -106,7 +106,7 @@ a {
         li {
             margin-left: 20px;
             a {
-                color: white;
+                color: #ddd;
                 padding-top: 0;
                 padding-bottom: 0;
                 line-height: 80px; 
@@ -136,7 +136,7 @@ a {
     .navbar-nav {
         .active{
             a {
-                color: $brandColor;
+                color: white;
                 background: transparent;
                 font-weight: 700;
                 &:hover {
@@ -445,14 +445,16 @@ img {
 /**  Page Programs  **/
 .page-programs {
     .main-content {
-        width: 900px;
+        max-width: 880px;
     }
 
     .featured-program {
         display: block;
-        img {
-            border-radius: 8px;
-        }
+        border-radius: 8px;
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
     }
     .program-section {
         display: block;
@@ -471,6 +473,7 @@ img {
                 }
             }
             p {
+                color: #666;
                 margin-left: 22px;
             }
         }
@@ -490,13 +493,13 @@ img {
                 float: left;
             }
             .content {
-                float: right;
-                width: 520px;
+                margin-left: 345px;
                 .title {
                     margin: 0 0 15px 0;
                 }
                 .description {
                     line-height: 1.8;
+                    color: #666;
                 }
                 .btn {
                     line-height: 28px;
@@ -521,25 +524,292 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
     .page-programs {
+        .main-content {
+            padding: 0;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .featured-program {
+            height: 140px;
+        }
         .program-section {
             padding: 30px 0 20px 0;
+            .heading {
+                h2 {
+                    font-size: 24px;
+                }
+                p {
+                    margin-left: 18px;
+                }
+            }
             .program-item {
                 .cover {
-                    float: inherit;
                     width: 100%;
+                    float: inherit;
+                    display: block;
                 }
                 .content {
-                    float: inherit;
                     width: 100%;
+                    margin-left: 0;
                     .title {
-                        margin: 15px 0 10px 0;
+                        margin: 15px 0 5px 0;
+                        font-size: 20px;
+                        line-height: 1.6;
+                    }
+                    .description {
+                        line-height: 1.6;
                     }
                     .btn {
                         display: none;
                     }
                 }
             }
+        }
+    }
+}
+
+
+.banner.program-banner {
+    .banner-content {
+        background: rgba(54,61,77,.2); 
+        padding: 210px 0 190px;
+        text-align: center; 
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+        color: white;
+        h2 {
+            font-size: 52px;
+        }
+        .p {
+            font-size: 20px;
+        }
+    }
+}
+
+.page-program-single {
+    section {
+        padding: 40px 0;
+        &.even {
+
+        }
+
+        &.odd {
+            background: #f9f9f9;
+        }
+
+        .container {
+            max-width: 960px;
+        }
+        
+        .section-heading {
+            margin: 0 auto;
+            font-size: 24px;
+            padding: 20px 0;
+            text-align: center;
+            font-weight: 500;
+            position: relative;
+            margin-bottom: 40px;
+
+            h2 {
+                display: inline;
+                position: relative;
+                &::after {
+                    content: ' ';
+                    position: absolute;
+                    width: 42px;
+                    height: 6px;
+                    background-color: #ff7200;
+                    text-align: center;
+                    bottom: -20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+
+        .section-body {
+            p {
+                line-height: 1.8;
+            }
+        }
+    }
+
+    .events {
+        .event {
+            padding: 20px;
+            position: relative;
+            float: left;
+            width: 50%;
+            .event-name {
+                display: block;
+                margin-left: 90px;
+                font-size: 18px;
+                line-height: 1.8;
+                font-weight: 500;
+                transition: all .2s ease-out,transform .2s ease-out,opacity .2s ease-out;
+                transition-delay: .1s;
+            }
+            .event-date {
+                margin-top: 7px;
+                line-height: 1;
+                margin-left: 8px;
+                font-size: 16px;
+                color: #777;
+                float: left;
+                font-style: italic;
+            }
+        }
+    }
+    
+    .donations {
+        margin: 0 auto;
+        width: 100%;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        border-collapse: initial;
+        border: 1px solid #f0f0f0;
+        border-radius: 0;
+
+        thead tr {
+            height: 60px;
+            background: #ecf5ff;
+            color: #333;
+            font-weight: bold;
+            border: none;
+        }
+
+        tbody tr {
+            color: #808080;
+            border: none;
+            &:nth-child(even) {
+                background-color: #fafafa;
+            }
+        }
+
+        th, td {
+            line-height: 2.2;
+            border: none;
+            padding: 10px 20px;
+        }
+    }
+
+    .teams {
+        .team-item {
+            border: 8px solid #fff0e4;
+            display: block;
+            position: relative;
+            height: 240px;
+            font-size: 14px;
+            padding: 15px;
+            line-height: 1;
+            margin: 20px 0;
+            background: #fff;
+            color: #666;
+            transition: all .3s ease-out;
+
+            .avatar {
+                position: absolute;
+                right: -10px;
+                height: 250px;
+                bottom: 0;
+                transition: all .3s ease-out;
+            }
+
+            .org {
+                position: absolute;
+                top: -16px;
+                font-size: 18px;
+                background: #fff;
+                height: 30px;
+                line-height: 30px;
+                padding: 0 10px;
+                left: 5px;
+                font-weight: 700;
+                color: #333;
+                border-radius: 10px;
+            }
+
+            .brief {
+                height: 195px;
+                margin-right: 50px;
+                position: relative;
+                display: block;
+
+                .name {
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin: 10px 0;
+                    line-height: 1.4;
+                    color: #333;
+                }
+
+                p {
+                    line-height: 1.6;
+                    margin-bottom: 5px;
+                }
+
+                .target {
+                    z-index: 10;
+                    position: absolute;
+                    bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .news {
+        list-style: none;
+        padding-inline-start: 15px;
+        .item {
+            width: 100%;
+            line-height: 2.8;
+
+            .title {
+
+            }
+
+            .date {
+                float: right;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner.program-banner {
+        .banner-content {
+            padding: 100px 0 50px 0;
+            h2 {
+                font-size: 24px;
+            }
+            .p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .page-program-single {
+        section {
+            .section-heading h2 {
+                font-size: 20px;
+                &::after {
+                    width: 20px;
+                    height: 3px;
+                }
+            }
+        }
+        .events {
+            .event {
+                width: 100%;
+            }
+        }
+        .donations {
+
         }
     }
 }
@@ -798,31 +1068,101 @@ img {
     font-size: 16px;
 }
 
-.post-list {
+
+.page-posts {
     .cbox {
-        padding-bottom: 5px;
+        border: 1px solid #f3f3f3;
     }
-    ul {
-        list-style: none;
-        padding-left: 0px;
-        margin-bottom: 0;
-        li {
-            font-size: 16px;
-            margin-bottom: 15px;
-            a {
-                color: #333;
-                display: inherit;
-                line-height: 1.6;
-                &:hover {
-                    color: #27ae60;
+
+    &.container {
+        max-width: 800px;
+    }
+}
+
+ul.post-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0;
+    li {
+        font-size: 16px;
+        margin-bottom: 25px;
+        overflow: hidden;
+        border-radius: 4px;
+        background: #fafafa;
+        .cover {
+            width: 200px;
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            float: left;
+            position: relative;
+            &::after {
+                content: ' ';
+                background-color: rgba(255,255,255,0);
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                -webkit-transition: background-color .3s linear;
+                -moz-transition: background-color .3s linear;
+                transition: background-color .3s linear;
+            }
+        }
+        .content {
+            float: left;
+            width: 565px;
+            padding: 12px 20px;
+        }
+        .title {
+            font-size: 18px;
+            color: #333;
+            display: inherit;
+            line-height: 1.8;
+            font-weight: bold;
+        }
+        .date {
+            font-size: 14px;
+            color: #666;
+            margin-top: 4px;
+            line-height: 1.6;
+        }
+        
+        &:hover {
+            .cover {
+                &::after {
+                    background: rgba(255,255,255,0.4);
                 }
             }
-            .publish-date {
-                float: right;
-                font-size: 14px;
-                color: #666;
-                line-height: 1.6;
-                margin-left: 10px;
+            .title {
+                color: $brandColor;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        li {
+            .cover {
+                width: 100px;
+                height: 110px;
+                float: left;
+            }
+            .content {
+                float: inherit;
+                width: auto;
+                margin-left: 100px;
+                padding: 10px;
+                .title {
+                    font-size: 16px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2; 
+                }
+                .date {
+
+                }
             }
         }
     }
@@ -851,16 +1191,6 @@ img {
         padding-bottom: 30px;
     }
 
-}
-
-.post-page {
-    .cbox {
-        border: 1px solid #f3f3f3;
-    }
-
-    &.container {
-        max-width: 800px;
-    }
 }
 
 
@@ -959,7 +1289,7 @@ article {
 
 .title-box,
 .posts-category,
-.startup-progress, {
+.startup-progress {
     padding: 20px;
     ul {
         padding: 0;
@@ -974,7 +1304,6 @@ article {
         
     }
     .main-content {
-        padding-left: 30px;
         h1.title {
             font-size: 24px;
             margin-top: 0 !important;
@@ -1212,16 +1541,17 @@ table {
     .banner {
         h2 {
             font-size: 24px;
+            line-height: 1.6;
         }
         p {
             font-size: 16px;
         }
 
         .banner-content {
-            padding-top: 150px;
-            padding-bottom: 20px;
+            padding-top: 120px;
+            padding-bottom: 15px;
             .page-title {
-                font-size: 28px;
+                font-size: 24px;
             }
         }
     }

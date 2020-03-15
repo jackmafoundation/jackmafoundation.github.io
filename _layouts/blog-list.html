@@ -4,16 +4,19 @@ layout: default
 
 {% include banner.html %}
 
-<div class="container page post-page">
-	<div class="post-list">
-		<ul class="">
-			{% for post in site.posts %}
-			  <li class="">
-				  <span class="publish-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-				  <a href="{{ post.url }}">{{ post.title }}</a>
-			  </li>
-			{% endfor %}
-	  	</ul>
-		{{ content }}
-	</div>
+<div class="container page page-posts">
+	<ul class="post-list">
+		{% for post in site.posts %}
+			<li class="post-item">
+				<a href="{{ post.url }}">
+					<div class="cover" style="background-image: url('{{ post.cover }}');"></div>
+					<div class="content">
+						<div class="title">{{ post.title }}</div>
+						<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+					</div>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+	{{ content }}
 </div>
