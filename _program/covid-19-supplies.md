@@ -37,35 +37,6 @@ permalink: /program/covid-19-supplies/
     </div>
   </section>
 
-
-  <section class="odd">
-    <div class="section-heading"><h2>Donation Progress</h2></div>
-    <div class="section-body container">
-      <!-- <div class="events">
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-      </div> -->
-    </div>
-  </section>
-
   <section class="even">
     <div class="section-heading"><h2>Donation Details</h2></div>
     <div class="section-body container aids">
@@ -95,7 +66,7 @@ permalink: /program/covid-19-supplies/
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">100,000</td>
+              <td style="text-align: right;">1,000,000</td>
               <td style="text-align: right;">Stocking Up</td>
               <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
             </tr>
@@ -137,13 +108,13 @@ permalink: /program/covid-19-supplies/
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">100,000</td>
+              <td style="text-align: right;">1,000,000</td>
               <td style="text-align: right;">In Transit</td>
               <td style="text-align: right;">Jack Ma Foundation</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">10,000</td>
+              <td style="text-align: right;">100,000</td>
               <td style="text-align: right;">In Transit</td>
               <td style="text-align: right;">Jack Ma Foundation</td>
             </tr>
@@ -155,6 +126,176 @@ permalink: /program/covid-19-supplies/
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="aid">
+        <div class="country">Italy</div>
+        <table>
+          <thead>
+            <tr>
+              <th class="column-1">Goods</th>
+              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">Progress</th>
+              <th style="text-align: right;">Donors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Face Mask</td>
+              <td style="text-align: right;">1,000,000</td>
+              <td style="text-align: right;">500,000 In Transit, 500,000 Stocking Up</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">100,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="aid">
+        <div class="country">Spain</div>
+        <table>
+          <thead>
+            <tr>
+              <th class="column-1">Goods</th>
+              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">Progress</th>
+              <th style="text-align: right;">Donors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Face Mask</td>
+              <td style="text-align: right;">500,000</td>
+              <td style="text-align: right;">Stocking Up</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">50,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="aid">
+        <div class="country">Belgium</div>
+        <table>
+          <thead>
+            <tr>
+              <th class="column-1">Goods</th>
+              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">Progress</th>
+              <th style="text-align: right;">Donors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Face Mask</td>
+              <td style="text-align: right;">500,000</td>
+              <td style="text-align: right;">Stocking Up</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">50,000</td>
+              <td style="text-align: right;">Stocking Up</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="aid">
+        <div class="country">The United States</div>
+        <table>
+          <thead>
+            <tr>
+              <th class="column-1">Goods</th>
+              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">Progress</th>
+              <th style="text-align: right;">Donors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Face Mask</td>
+              <td style="text-align: right;">1,000,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">500,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="aid">
+        <div class="country">Republika y'u Rwanda</div>
+        <table>
+          <thead>
+            <tr>
+              <th class="column-1">Goods</th>
+              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">Progress</th>
+              <th style="text-align: right;">Donors</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">30,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+            <tr>
+              <td>Nucleic Acid Isolation or Purification Reagent</td>
+              <td style="text-align: right;">30,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+            <tr>
+              <td>NAT</td>
+              <td style="text-align: right;">30,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="odd">
+    <div class="section-heading"><h2>Donation Progress</h2></div>
+    <div class="section-body container">
+      <div class="events">
+        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+          <div class="event-date">Mar. 02</div>
+          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+        </a>
+        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+          <div class="event-date">1月29日</div>
+          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+        </a>
+        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+          <div class="event-date">1月29日</div>
+          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+        </a>
+        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+          <div class="event-date">1月29日</div>
+          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+        </a>
+        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+          <div class="event-date">1月29日</div>
+          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+        </a>
       </div>
     </div>
   </section>

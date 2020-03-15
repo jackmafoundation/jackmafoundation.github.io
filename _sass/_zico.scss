@@ -157,14 +157,16 @@ a {
     }
 }
 
+.page-content {
+    padding-bottom: 60px;
+}
+
 .site-footer {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 40px;
     color: #767676;
     font-size: 14px;
     background: #333;
-    border-top: 1px solid #e5e5e5;
     line-height: 30px;
 
     .qrcode {
@@ -796,7 +798,7 @@ img {
 
     .aids {
         .aid {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             .country {
                 font-size: 16px;
                 font-weight: bold;
