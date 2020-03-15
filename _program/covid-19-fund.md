@@ -70,11 +70,11 @@ permalink: /program/covid-19-fund/
         </a>
         <a class="event">
           <div class="event-date">Feb. 07</div>
-          <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Engineering</div>
+          <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Engineering.</div>
         </a>
         <a class="event">
           <div class="event-date">Jan. 29</div>
-          <div class="event-name">Novel coronavirus research and control fund project launched</div>
+          <div class="event-name">Novel coronavirus research and control fund project launched.</div>
         </a>
       </div>
     </div>
