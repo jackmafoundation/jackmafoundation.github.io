@@ -52,27 +52,27 @@ permalink: /program/covid-19-fund/
     <div class="section-heading"><h2>Fund Progress</h2></div>
     <div class="section-body container">
       <div class="events">
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+        <a class="event">
           <div class="event-date">Mar. 02</div>
           <div class="event-name">Cooperation agreement signed with Peter Doherty Institute of Infection and Immunization, Australia.</div>
         </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+        <a class="event">
           <div class="event-date">Feb. 18</div>
           <div class="event-name">Cooperation agreement signed between the Mailman School of Public Health at Columbia University and the Foundation.</div>
         </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+        <a class="event">
           <div class="event-date">Feb. 13</div>
           <div class="event-name">4 party cooperation framework cooperation agreement signed between Guangdong Zhong Nanshan medical foundation, Guangzhou Respiratory Health Research Institute, Alibaba Cloud Computing and the Foundation.</div>
         </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+        <a class="event">
           <div class="event-date">Feb 11</div>
           <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Sciences.</div>
         </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+        <a class="event">
           <div class="event-date">Feb. 07</div>
           <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Engineering</div>
         </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+        <a class="event">
           <div class="event-date">Jan. 29</div>
           <div class="event-name">Novel coronavirus research and control fund project launched</div>
         </a>
@@ -121,7 +121,7 @@ permalink: /program/covid-19-fund/
   </section>
 
 
-  <section class="even">
+  <section class="even" style="display: none">
     <div class="section-heading">
       <h2>Project Content</h2>
       <p style="font-size: 14px; margin-top: 40px; color: #999">Introduction of partners, teams and research directions</p>
@@ -279,167 +279,19 @@ permalink: /program/covid-19-fund/
   <section class="odd">
     <div class="section-heading"><h2>Related News</h2></div>
     <div class="section-body container">
-      <ul class="news">
-        {% for post in site.posts %}
-          {% if post.tags contains "2019nCOV" %}
-          <li class="item">
-            <a href="{{ post.url }}" class="title">{{ post.title }}</a> 
-            <div class="date">{{ post.date | date: "%Y-%m-%d" }}</div>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-
-</div>
-
-<div class="program-panel materials">
-
-  <section class="even" style="padding-top: 0">
-    <div class="section-heading"><h2>项目介绍</h2></div>
-    <div class="section-body container">
-      <p>自新冠肺炎疫情在全球开始蔓延之际，马云公益基金会就开始着手准备防疫物资捐助疫情严重的国家，我们和阿里巴巴公益基金会一起多方筹集了口罩等防疫物资，已先后向日本、韩国、伊朗、意大利、西班牙、美国、非洲捐出多批口罩及试剂盒等物资。我们希望以最快的速度把这些防疫物资送到需要的人手中，以此感谢帮助过我们的国家！</p>
-    </div>
-  </section>
-
-
-  <section class="odd">
-    <div class="section-heading"><h2>防疫基金行动</h2></div>
-    <div class="section-body container">
       <div class="events">
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="even">
-    <div class="section-heading"><h2>捐赠明细</h2></div>
-    <div class="section-body container aids">
-      <div class="aid">
-        <div class="country">Japan</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="column-1">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
-              <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right;">300,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
-            </tr>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right;">100,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Republic of Korea</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="column-1">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
-              <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Iran</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="column-1">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
-              <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right;">100,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right;">10,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
-            </tr>
-            <tr>
-              <td>Nucleic Acid Isolation or Purification Reagent</td>
-              <td style="text-align: right;">30,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="odd">
-    <div class="section-heading"><h2>最新进展</h2></div>
-    <div class="section-body container">
-      <ul class="news">
         {% for post in site.posts %}
           {% if post.tags contains "2019nCOV" %}
-          <li class="item">
-            <a href="{{ post.url }}" class="title">{{ post.title }}</a> 
-            <div class="date">{{ post.date | date: "%Y-%m-%d" }}</div>
-          </li>
+          <a class="event" href="{{ post.url }}">
+            <div class="event-date">{{ post.date | date: "%m/%d" }}</div>
+            <div class="event-name">{{ post.title }}</div>
+          </a>
           {% endif %}
         {% endfor %}
-      </ul>
+      </div>
     </div>
-  </section> -->
+  </section>
+
 </div>
 
 </div>

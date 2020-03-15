@@ -573,7 +573,6 @@ img {
                         line-height: 1.6;
                     }
                     .btn {
-                        display: none;
                     }
                 }
             }
@@ -673,9 +672,8 @@ img {
         }
     }
     
-    .donations {
+    table {
         margin: 0 auto;
-        width: 100%;
         background: white;
         border-radius: 10px;
         overflow: hidden;
@@ -683,12 +681,12 @@ img {
         border-collapse: initial;
         border: 1px solid #f0f0f0;
         border-radius: 0;
+        margin-top: 15px;
 
         thead tr {
-            height: 60px;
+            height: 48px;
             background: #ecf5ff;
             color: #333;
-            font-weight: bold;
             border: none;
         }
 
@@ -703,7 +701,7 @@ img {
         th, td {
             line-height: 2.2;
             border: none;
-            padding: 10px 20px;
+            padding: 8px 20px;
         }
     }
 
@@ -1006,7 +1004,7 @@ img {
 
         .donations {
             width: auto;
-            margin: 0 -20px;
+            margin: 0 -15px;
             border: none;
         }
 
