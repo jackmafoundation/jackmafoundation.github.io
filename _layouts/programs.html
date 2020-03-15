@@ -4,22 +4,10 @@ layout: default
 
 {% include banner.html %}
 
-<div class="container page page-programs">
-  	<div class="left sidebar">
-      <div class="cbox">
-    		<ul>
-          {% for domain in site.data.programs %}
-          <li>
-            <a data-scroll-target="section" href="#domain-{{ domain.title }}">
-              <i class="fa fa-pencil-square-o"></i>{{ domain.title }}<i class="fa fa-chevron-right right-arrow"></i>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
 
-  	</div>
-  	<div class="right main-content">
+
+<div class="container page page-programs">
+  	<div class="left main-content">
 
       <a class="featured-program" href="/program/2019ncov" style="background-image: url(https://img.mayun.xin/upload/2020031410/07c11c7b48ec169709d455340d33450a.jpg"></a>
 
@@ -46,6 +34,21 @@ layout: default
       <article class="post-content">
         {{ content }}
       </article>
+    </div>
+    
+    <div class="right sidebar" style="display: none;">
+      <div class="cbox">
+    		<ul>
+          {% for domain in site.data.programs %}
+          <li>
+            <a data-scroll-target="section" href="#domain-{{ domain.title }}">
+              <i class="fa fa-pencil-square-o"></i>{{ domain.title }}<i class="fa fa-chevron-right right-arrow"></i>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
   	</div>
 
 </div>

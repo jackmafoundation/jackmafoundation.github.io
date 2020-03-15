@@ -1,5 +1,6 @@
 - title: 企业家精神
   vision: 让每个孩子成为最好的自己
+  label: entrepreneurship
   members:
     - title: The Africa Netpreneur Prize Initiative
       intro: The Jack Ma Africa Netpreneur Prize Initiative, designed by the Jack Ma Foundation, is to recognize and support the youthful generation of local entrepreneurs, through whom to help achieve inclusion and prosperity in the region.The foundation is scheduled to select 10 young leading netrepreneurs annually and they would share a prize pool of one million US dollars, according to their individual achievements. The total sum of reward will reach 100 million US dollars by 2030, aiming to advance jobs and economy for the promising continent mostly yet to develop. Echoing with the founder’s e-philosophy, the program is internet-based and will particularly focus on women empowerment and the grassroots. Through the initiative, we aim to advocate and encourage the entrepreneurship among young business leaders, striving to help build a youthful, digital and promising Africa.
@@ -7,6 +8,7 @@
       link: https://www.netpreneur.africa/
 - title: 教育
   vision: 让每个孩子成为最好的自己
+  label: education
   members:
     - title: 马云乡村教育计划
       intro: Our mission is to identify and spotlight African entrepreneur heroes and their stories to inspire the continent and beyond.
@@ -25,6 +27,7 @@
       cover: https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90
 - title: 医疗环保
   vision: 让每个孩子成为最好的自己
+  label: medical
   members:
     - title: 新型冠状病毒防治与捐赠
       intro: 支持加快新冠肺炎治疗药物及疫苗的研发
@@ -38,6 +41,7 @@
       cover: https://img.mayun.xin/upload/2018082807/50ba82ce8d561ea929c774ee2f8f2081.jpg?x-oss-process=image/resize,w_560,h_300,m_fill,limit_0/format,jpg/quality,Q_90
 - title: 女性领导力
   vision: 女性的力量让世界更美好
+  label: female
   members:
     - title: 中国女足支持计划
       intro: Our mission is to identify and spotlight African entrepreneur heroes and their stories to inspire the continent and beyond.

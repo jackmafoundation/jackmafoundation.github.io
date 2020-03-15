@@ -5,7 +5,7 @@
 		<a class="fa fa-twitter" href="https://twitter.com/foundation_ma" target="_blank"></a>
 		<a class="fa fa-instagram" href="https://www.instagram.com/jackmafoundation/" target="_blank"></a>
 		<a class="fa fa-facebook" href="https://www.facebook.com/Jack-Ma-Foundation-2547579275259017/" target="_blank"></a>
-	    <a class="fa fa-weixin" href="http://t.cn/RLYN2Pr" target="_blank">
+	    <a class="fa fa-weixin">
 	    	<img src="{{ site.qrcode }}" />
 	    </a>
 	    <a class="fa fa-weibo" href="https://weibo.com/jackmafoundation" target="_blank"></a>
@@ -27,9 +27,29 @@
 <script>
 	jQuery(document).ready(function($) {
 	  $('.field').mouseover(function(){
-		var e=this;
-		$(".field-active").removeClass('field-active')
-		$(e).addClass("field-active")
+      var e=this;
+      $(".field-active").removeClass('field-active')
+      $(e).addClass("field-active")
 	  })
+
+	  $('.tab').click(function(){
+      var e=this;
+      $('.tab.active').removeClass('active')
+      $(e).addClass("active")
+
+      $('.program-panel.active').removeClass('active')
+      var target = '#' + $(e).data('target')
+      $(target).addClass('active')
+      // $(".panel-wuzi").show();
+    })
+    
+    var hash = window.location.hash;
+    if (hash) {
+      $('.program-panel').removeClass('active')
+      $(hash).addClass('active')
+
+      $('.tab').removeClass('active')
+      $('#tab-' + hash.substr(1)).addClass('active')
+    }
 	});
 </script>
