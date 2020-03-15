@@ -1,0 +1,14 @@
+<ul class="nav navbar-nav">
+	<li class="{% if page.url contains '/startup/' %}active{% endif %}">
+		<a href="/">HOME</a>
+	</li>
+	<li class="{% if page.url contains '/our-work/' %}active{% endif %}">
+		<a href="/our-work">OUR WORK</a>
+	</li>
+	<li class="{% if page.url contains '/blog/' %}active{% endif %}">
+		<a href="/blog">NEWS</a>
+	</li>
+	<li class="{% if page.url contains '/about/' %}active{% endif %}">
+		<a href="/about">ABOUT US</a>
+	</li>
+</ul>

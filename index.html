@@ -1,0 +1,148 @@
+---
+layout: default
+---
+
+
+  <div class="index-banner">
+    <div class="container">
+	  <p class="slogan">新型冠状病毒研究与防治基金</p>
+	  <p class="slogan-description">支持加快新冠肺炎治疗药物及疫苗的研发</p>
+      <a href="/about/" class="btn btn-round slogan-info" role="button">了解详情</a>
+    </div>
+    
+  </div>
+
+
+<!-- <section class="home">
+	<div class="container">
+	<div class="home-saying">While some may see them as the crazy ones, we see genius. 
+	<br/>Because the people who are crazy enough to think that they can change the world, are the ones who do. </div>
+	</div>
+</section> -->
+
+<section class="latest-news-section container">
+	<div class="latest-news-card">
+		<div class="indicator">TheLatest</div>
+		<ul class="news">
+			{% for post in site.posts limit:3 %}
+			<li class="news-item">
+				<span class="publish-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+				<a class="news-title" href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+
+<section class="sec fields-section" style="margin-top: 50px;">
+	<div class="container">
+		<h3 class="sectitle" style="text-align: left;">OUR WORK</h3>
+		<ul class="fields">
+			<li class="field field-active">
+				<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2018020807/43b8ad9ea5e55292b1d7b7834de6b864.png?x-oss-process=image/resize,w_560,h_400,m_fill,limit_0/format,jpg)">
+				</div>
+				<div class="field-content">
+					<div class="field-name">Education</div>
+					<div class="field-slogan">让每个孩子成为最好的自己</div>
+					<div class="btn">Learn More</div>
+				</div>
+			</li>
+			<li class="field">
+				<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2018020807/43b8ad9ea5e55292b1d7b7834de6b864.png?x-oss-process=image/resize,w_560,h_400,m_fill,limit_0/format,jpg)">
+				</div>
+				<div class="field-content">
+					<div class="field-name">Entrepreneurship</div>
+					<div class="field-slogan">让每个孩子成为最好的自己</div>
+					<div class="btn">Learn More</div>
+				</div>
+			</li>
+			<li class="field">
+				<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2018020807/43b8ad9ea5e55292b1d7b7834de6b864.png?x-oss-process=image/resize,w_560,h_400,m_fill,limit_0/format,jpg)">
+				</div>
+				<div class="field-content">
+					<div class="field-name">Medical and environmental protection</div>
+					<div class="field-slogan">让每个孩子成为最好的自己</div>
+					<div class="btn">Learn More</div>
+				</div>
+			</li>
+			<li class="field">
+				<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2018020807/43b8ad9ea5e55292b1d7b7834de6b864.png?x-oss-process=image/resize,w_560,h_400,m_fill,limit_0/format,jpg)">
+				</div>
+				<div class="field-content">
+					<div class="field-name">Female leadership</div>
+					<div class="field-slogan">让每个孩子成为最好的自己</div>
+					<div class="btn">Learn More</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+
+
+<!-- 
+<section class="sec feature-startups">
+	<div class="container">
+		<h3 class="sectitle">孵化团队</h3>
+    	<ul class="startup-list">
+		  {% for title in site.home_startups %}
+		    {% assign results = site.startup | where:"title", title %}
+		    {% assign item = results.first %}
+		    <li>
+		      <div class="item">
+		        <div class="item-cover">
+		          <a href="{{ item.url }}">
+		          	<img src="{{ item.cover | prepend: site.qiniu_upload }}"/>
+		          </a>
+		        </div>
+		        <div class="item-body">
+		          <h3>
+		            <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+		          </h3>
+		          <p>{{ item.desc }}</p>
+		        </div>
+		      </div>
+		    </li>
+		  {% endfor %}
+		</ul>
+    </div>
+</section>
+
+<section class="sec service">
+	<div class="container">
+		<h3 class="sectitle">服务内容</h3>
+    	<div class="row service-collums">
+		  <div class="col-md-4 item">
+		  	<div class="cbox">
+			  	<div class="service incubator"></div>
+			  	<h4 class="">创业孵化</h4>
+			  	<p>把握产品需求定位、研发技术引导；团队组建、执行管理；后续商业价值的转换引导</p>
+			 </div>
+		  </div>
+		  <div class="col-md-4 item">
+		  	<div class="cbox">
+			  	<div class="service education"></div>
+			  	<h4 class="">创业教育</h4>
+			  	<p>与学校、优秀企业合作，开设多种类的创新创业基础课程，激发团队创造潜力</p>
+			</div>
+		  </div>
+		  <div class="col-md-4 item">
+		  	<div class="cbox">
+			  	<div class="service invest"></div>
+			  	<h4 class="">创业投资</h4>
+			  	<p>提供百万元内的天使投资，并对接后续投资机构</p>
+			</div>
+		  </div>
+		</div>
+	</div>
+</section>
+
+<section class="sec ending">
+	<div class="container center">
+		<p class="epilogue">如果你也是怀揣梦想，正在做一件有意思的产品或服务，那么欢迎联系我们</p>
+		<a href="/service/" class="btn btn-round go-detail" role="button">了解更多</a>
+	</div>
+</section> -->
+
+
+
+

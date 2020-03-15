@@ -1,0 +1,20 @@
+<ul class="member-list">
+  {% for member in page.members %}
+    <li>
+      <div class="member">
+        <div class="member-avatar">
+            {% if member.avatar %}
+              <img src="{{ member.avatar | prepend: site.qiniu_upload }}"/>
+            {% endif %}
+        </div>
+        <div class="member-body">
+          <h3>{{ member.name }}</h3>
+          <p>Email: {{ member.email }}</p>
+          <p>微信: {{ member.wechat }}</p>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="clearfix"></div>

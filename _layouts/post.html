@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="banner">
+  <div class="banner-content">
+	  <div class="container">
+	      <h2 style="color: #fff;">{{ page.title }}</h2>
+	      <p style="color: #fff; font-size: 15px;">{% if page.author %}{{ page.author }} • {% endif %}{{ page.date | date: "%Y-%m-%d" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	  </div>
+  </div>
+</div>
+
+<div class="container page">
+	<div class="post">
+	  <article class="post-content">
+	    {{ content }}
+	  </article>
+
+	</div>
+</div>
+
+

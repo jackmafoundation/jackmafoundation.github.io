@@ -1,0 +1,35 @@
+<footer class="site-footer">
+
+  <div class="container">
+  	<div class="social">
+		<a class="fa fa-twitter" href="https://twitter.com/foundation_ma" target="_blank"></a>
+		<a class="fa fa-instagram" href="https://www.instagram.com/jackmafoundation/" target="_blank"></a>
+		<a class="fa fa-facebook" href="https://www.facebook.com/Jack-Ma-Foundation-2547579275259017/" target="_blank"></a>
+	    <a class="fa fa-weixin" href="http://t.cn/RLYN2Pr" target="_blank">
+	    	<img src="{{ site.qrcode }}" />
+	    </a>
+	    <a class="fa fa-weibo" href="https://weibo.com/jackmafoundation" target="_blank"></a>
+	    <a class="fa fa-envelope" href="mailto: info@jackmafoundation.org.cn" target="_blank"></a>
+	</div>
+
+  	<div class="copyright">
+    	© 2014-2020 {{ site.title }}. All Rights Reserved.
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="{{ "assets/bootstrap/js/jquery.min.js" | prepend: site.qiniu }}"></script>
+<script src="{{ "assets/bootstrap/js/bootstrap.min.js" | prepend: site.qiniu }}""></script>
+
+
+<script>
+	jQuery(document).ready(function($) {
+	  $('.field').mouseover(function(){
+		var e=this;
+		$(".field-active").removeClass('field-active')
+		$(e).addClass("field-active")
+	  })
+	});
+</script>

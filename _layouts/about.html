@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% include banner.html %}
+
+<div class="container page">
+
+  <div class="row">
+  	<!-- <div class="col-md-3 sidebar">
+      <div class="cbox">
+        <ul>
+          <li class="{% if page.url == '/about/' %}active{% endif %}">
+            <a href="/about#intro">
+              <i class="fa fa-info-circle"></i>关于闪孵<i class="fa fa-chevron-right right-arrow"></i>
+            </a>
+          </li>
+          <li class="{% if page.url contains '/about/members' %}active{% endif %}">
+            <a href="/about#vision"><i class="fa fa-user"></i>闪孵团队<i class="fa fa-chevron-right right-arrow"></i></a>
+          </li>
+        </ul>
+      </div>
+
+  	</div> -->
+
+  	<div class="col-md-9 left-divider main-content" style="padding: 0 15px; margin-top: 20px">
+	  	<article class="post-content">
+	    	{{ content }}
+	  	</article>
+  	</div>
+  </div>
+
+</div>
