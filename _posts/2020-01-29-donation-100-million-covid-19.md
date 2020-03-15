@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Donating 100 million yuan to support accelerating the research and development of NCP vaccine"
-date:   2020-02-21 14:05:17
+date:   2020-01-29 14:05:17
 author: Admin
 cover: https://img.mayun.xin/upload/2020012911/fefc789bf7b6a7ac21e16da3cea4ea58.jpg
 permalink: /blog/donation-100-million-covid-19/
