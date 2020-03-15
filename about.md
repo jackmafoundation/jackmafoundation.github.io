@@ -1,23 +1,26 @@
 ---
 layout: about
-title: 关于我们
+title: About
 permalink: /about/
 
 header: ABOUT
-secondary: 关注教育、企业家精神、医疗环保、女性领导力
+secondary: "Focuse on four areas: entrepreneurship, education, women’s leadership, medical and environmental protection"
 cover: https://img.mayun.xin/upload/2017120408/bb2cdfc1031c33b7807fddeb877955b4.jpg
 ---
 
-马云公益基金会由阿里巴巴创始人马云先生于2014年12月15日发起并捐赠成立，主要关注企业家精神、教育、女性领导力、医疗环保四个领域，打造可托付、可参与、可持续的公益组织。
+Founded by Alibaba founder Mr.Jack Ma on December 15, 2014,the Jack Ma Foundation (JMF) focuses on four areas: entrepreneurship, education, women's leadership, medical and environmental protection. The foundation actively works to create a trustworthy, participatory and sustainable non-profit organization.
 
-基金会已设立实施马云乡村教育计划、马云教育基金、非洲创业者基金、中国女足支持计划及其他环保医疗资助项目，致力于培养面向未来的乡村教育家、企业家，助力乡村儿童、年轻创业者和女性的发展成长，让世界更加普惠、更加绿色可持续、更加健康快乐。
+JMF is committed to cultivating future-oriented rural educators and entrepreneurs; helping rural children, young entrepreneurs and women's development and growth, and making the world more inclusive, green, sustainable, healthy and happy.As such, the foundation has set up and implemented the Jack Ma rural education Initiative, the Jack Ma education fund, the Africa Netpreneur Prize Initatie,the China Women's Football support plan and other environmental protection & medical support projects. 
 
-基金会将始终秉持“公益心态，商业手法”理念，坚持开放透明原则，既注重培养一支专业高效的公益团队，又唤醒一批志同道合的人，努力为中国公益事业做出探索和贡献。
+The foundation will always uphold the concept of "public interest mentality, business practices", adhere to the principle of openness and transparency, not only focus on training a professional and efficient public welfare team, but also awaken a group of like-minded people, and strive to make contributions to China's public welfare.
 
-## 愿景
+The foundation strives to uphold the concept of combining a public welfare mindset with a business approach to achieve maximum results. It aims to adhere to the principle of openness and transparency; to not only focus on training a professional and efficient public welfare team but to also awaken a group of like-minded people. Lastly, the Foundation strives to make contributions to China's public welfare.
 
-成为有理想，有理念，有方法，有原则的新公益组织
 
-## 价值观
+## Vision Statement of Jack Ma Foundation
 
-客户第一，团队合作，拥抱变化，简单，专业，诚信
+Be an innovative public welfare organization with ideals, ideas, methods and principles.
+
+## Values of Jack Ma Foundation 
+
+Customer first, team work, embrace change, simplicity, professionalism and honesty

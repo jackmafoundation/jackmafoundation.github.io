@@ -9,10 +9,10 @@ layout: default
 <div class="container page page-programs">
   	<div class="left main-content">
 
-      <a class="featured-program" href="/program/2019ncov" style="background-image: url(https://img.mayun.xin/upload/2020031410/07c11c7b48ec169709d455340d33450a.jpg"></a>
+      <a class="featured-program" href="/program/covid-19-fund" style="background-image: url(https://img.mayun.xin/upload/2020031515/39a33d00defccbd130fce33ac7c1129a.jpg"></a>
 
       {% for domain in site.data.programs %}
-      <div class="program-section" data-scroll-flag="section-1" id="domain-{{ domain.title }}">
+      <div class="program-section" data-scroll-flag="section-1" id="field-{{ domain.label }}">
         <div class="heading">
           <h2>{{ domain.title }}</h2>
           <p>{{ domain.vision }}</p>
@@ -22,6 +22,9 @@ layout: default
             <div class="cover" style="background-image: url('{{ program.cover }}')"></div>
             <div class="content">
               <h3 class="title">{{ program.title }}</h3>
+              {% if program.slogan %}
+                <p class="slogan">{{ program.slogan }}</p>
+                {% endif %}
               <p class="description">{{ program.intro }}</p>
               {% if program.link %}
                 <a class="btn" href="{{ program.link }}">Learn More</a>

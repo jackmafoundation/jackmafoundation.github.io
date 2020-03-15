@@ -339,9 +339,6 @@ img {
             box-sizing: border-box;
             font-size: 0px;
             width: 22%;
-            border-width: 0 1px 0 0;
-            border-style: solid;
-            border-color: #aaa;
             transition: width .5s;
             -ms-transition: width .5s;
             -moz-transition: width .5s;
@@ -380,7 +377,6 @@ img {
                 .field-slogan {
                     font-size: 18px;
                     margin-top: 10px;
-                    font-weight: 200;
                     opacity: 0;
                 }
                 .btn {
@@ -453,24 +449,23 @@ img {
 /**  Page Programs  **/
 .page-programs {
     .main-content {
-        max-width: 880px;
     }
 
-    
     .program-section {
         display: block;
         position: relative;
         padding: 60px 0;
         border-bottom: 1px solid #e0e0e0;
         .heading {
-            margin-bottom: 20px;;
+            margin-bottom: 20px;
+            margin-left: -22px;
             h2 {
                 color: $brandColor;
                 &::before {
                     content: "/ ";
                     color: $brandColor;
                     font-size: 28px;
-                    font-weight: bold;
+                    font-weight: bolder;
                 }
             }
             p {
@@ -486,21 +481,22 @@ img {
             display: block;
             width: 100%;
             .cover {
-                width: 320px;
-                height: 200px;
+                width: 360px;
+                height: 240px;
                 background-size: cover;
                 background-position: center;
                 border-radius: 4px;
                 float: left;
             }
             .content {
-                margin-left: 345px;
+                margin-left: 390px;
                 .title {
                     margin: 0 0 15px 0;
                 }
                 .description {
                     line-height: 1.8;
                     color: #666;
+                    font-size: 14px;
                 }
                 .btn {
                     line-height: 28px;
@@ -540,6 +536,7 @@ img {
         .program-section {
             padding: 30px 0 20px 0;
             .heading {
+                margin-left: 0;
                 h2 {
                     font-size: 24px;
                 }
@@ -582,7 +579,7 @@ img {
         text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
         color: white;
         h2 {
-            font-size: 52px;
+            font-size: 48px;
         }
         .p {
             font-size: 20px;
@@ -640,27 +637,27 @@ img {
 
     .events {
         .event {
-            padding: 20px;
+            padding: 10px;
             position: relative;
+            width: 100%;
             float: left;
-            width: 50%;
-            .event-name {
-                display: block;
-                margin-left: 90px;
-                font-size: 18px;
-                line-height: 1.8;
-                font-weight: 500;
-                transition: all .2s ease-out,transform .2s ease-out,opacity .2s ease-out;
-                transition-delay: .1s;
-            }
             .event-date {
                 margin-top: 7px;
                 line-height: 1;
                 margin-left: 8px;
                 font-size: 16px;
                 color: #777;
-                float: left;
                 font-style: italic;
+                float: left;
+            }
+            .event-name {
+                display: block;
+                margin-left: 90px;
+                font-size: 16px;
+                line-height: 1.8;
+                font-weight: 500;
+                transition: all .2s ease-out,transform .2s ease-out,opacity .2s ease-out;
+                transition-delay: .1s;
             }
         }
     }
@@ -857,6 +854,27 @@ img {
     }
 }
 
+.related-program-card {
+    background: #fff;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.05);
+    max-width: 960px;
+    margin: -90px auto 60px auto;
+    border-radius: 8px;
+    padding: 20px 30px 24px 30px;
+    line-height: 40px;
+
+    .prefix-label {
+        float: left;
+    }
+
+    .program-info {
+        margin-left: 150px;
+        .title {
+            font-size: 20px;
+        }
+    }
+}
+
 .ncov-nav-tabs {
     background: #fafafa;
     box-shadow: 0 2px 20px 0 rgba(0,0,0,.05);
@@ -905,6 +923,29 @@ img {
     .page-ncov {
         background: #328ff0;
         padding-bottom: 40px;
+
+        .related-program-card {
+            margin: 0 15px;
+            margin-top: -40px;
+            padding: 15px;
+            padding-bottom: 20px;
+            line-height: 1.4;
+            font-size: 16px;
+            background: #fafafa;
+            .prefix-label {
+                font-style: italic;
+                color: #999;
+            }
+            .program-info {
+                margin: 0;
+                color: #999;
+                display: inline;
+                margin-left: 8px;
+                .title {
+                    font-size: 16px;
+                }
+            }
+        }
 
         .ncov-nav-tabs {
             margin-top: -20px;

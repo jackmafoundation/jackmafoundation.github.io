@@ -21,7 +21,7 @@
 </footer>
 
 <script src="{{ "assets/bootstrap/js/jquery.min.js" | prepend: site.qiniu }}"></script>
-<script src="{{ "assets/bootstrap/js/bootstrap.min.js" | prepend: site.qiniu }}""></script>
+<script src="{{ "assets/bootstrap/js/bootstrap.min.js" | prepend: site.qiniu }}"></script>
 
 
 <script>
@@ -38,7 +38,7 @@
       $(e).addClass("active")
 
       $('.program-panel.active').removeClass('active')
-      var target = '#' + $(e).data('target')
+      var target = '.' + $(e).data('target')
       $(target).addClass('active')
       // $(".panel-wuzi").show();
     })
@@ -46,7 +46,7 @@
     var hash = window.location.hash;
     if (hash) {
       $('.program-panel').removeClass('active')
-      $(hash).addClass('active')
+      $('.' + hash.substr(1)).addClass('active')
 
       $('.tab').removeClass('active')
       $('#tab-' + hash.substr(1)).addClass('active')

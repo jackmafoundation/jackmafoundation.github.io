@@ -1,108 +1,119 @@
 ---
 layout: program
-title:  "新型冠状病毒防治捐赠"
-cover: https://img.mayun.xin/upload/2020022712/a8626acf81864c5920c1411ceeefbedc.jpg?x-oss-process=image/resize,w_1440,limit_0/format,jpg/quality,Q_90
-slogan: 支持加快新冠肺炎治疗药物及疫苗的研发
-permalink: /program/2019ncov/
+title:  "Fund on COVID-19 Research, Prevention and Treatment"
+cover: https://img.mayun.xin/upload/2020022712/a8626acf81864c5920c1411ceeefbedc.jpg?x-oss-process=image/blur,r_10,s_6
+slogan: Supporting Research and Development of Drugs and Vaccines on COVID-19
+permalink: /program/covid-19-fund/
 ---
 
 
 <div class="page-ncov">
 
-<div class="container ncov-nav-tabs">
-  <div class="tab active" id="tab-fangzhi" data-target="fangzhi">
-    <h2>防治基金</h2>
+<!-- <div class="container ncov-nav-tabs">
+  <div class="tab active" id="tab-research" data-target="research">
+    <h2>Fund on COVID-19 Research, Prevention and Treatment</h2>
     <p>支持加快新冠肺炎治疗药物及疫苗的研发</p>
   </div>
-  <div class="tab" id="tab-wuzi" data-target="wuzi">
-    <h2>物资捐赠</h2>
+  <div class="tab" id="tab-materials" data-target="materials">
+    <h2>Donation of COVID-19 epidemic prevention materials</h2>
     <p>捐助疫情严重的国家防疫物资</p>
   </div>
+</div> -->
+
+<div class="container related-program-card">
+  <a href="/program/covid-19-supplies">
+    <div class="prefix-label">Related Program: </div>
+    <div class="program-info">
+      <div class="title">Donation of medical supplies for the control and prevention of COVID-19</div>
+    </div>
+  </a>
 </div>
 
 
-<div class="program-panel active" id="fangzhi">
+<div class="program-panel active research">
 
   <section class="even" style="padding-top: 0">
-    <div class="section-heading"><h2>项目介绍</h2></div>
+    <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>新冠肺炎疫情牵动人心，2020年1月29日，马云公益基金会宣布捐赠一亿元人民币用于支持新冠肺炎治疗药物和疫苗的研发。其中，捐赠中国科学院和中国工程院各2000万元，用于其所属专业研究机构当前病毒疫苗专项研发，其余资金将用于支持国内外各顶尖科研机构和科研人员合作展开对新型冠状病毒的预防治疗工作。</p>
-      <p>“我们深知，尽管科研人员们已经在争分夺秒，全力以赴，但是疫苗从研究到最终投入使用绝非一朝一夕之易事；我们也希望，能在疫苗问世之前疫情就完全得到控制；但我们更知道，人类与病毒的斗争是一条漫长的道路，这条路需要更多的耐心与积累，也需要更多的信心与希望。在这条路上，马云公益基金会将竭尽所能为医疗科学的发展与积累提供更多帮助。”基金会发起人马云表示。</p>
-      <p>马云呼吁并支持所有的科研人员和研究机构能够通力合作，集合人力物力资源，给国人以信心，更给人类战胜疾病的信心。同时，阿里巴巴集团也宣布，将为公共科研机构免费开放本次病毒疫苗和新药研发所需的一切AI算力。</p>
-      <p>未来阿里云还计划与协议合作方就共建国家级呼吸疾病的智能大数据预警系统、呼吸系统疾病（传染病）相关的科研云平台研究、呼吸疾病治疗研究工作的开放协同信息化及如何提升疾病的预警及信息传递效率探讨相关的深度技术支撑合作。</p>
+      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of one hundred million yuan to support the R&amp;D of 2019-nCoV treatment drugs and vaccines.</p>
+
+      <p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received 20 million yuan for the special R&amp;D of vaccines within their professional research institutes. The remaining funds will be used to support the research and development of 2019-nCoV by leading research institutes and researchers at home and abroad.</p>
+
+      <p>&quot;We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma foundation will do its best to provide more help for the development and accumulation of medical science. &quot; Jack Ma, Founder of JMF said.</p>
+
+      <p>Jack Ma called on all scientific researchers and research institutions to work together to gather human and material resources and to give confidence to the Chinese people and all nationalities that the disease will be overcome. In addition, Alibaba group announced that it will open all the AI computing power needed for the development of virus vaccines and new drugs to public scientific research institutions for free</p>
+
+      <p>In the future,  Alibaba Cloud Computing also plans to discuss relevant in-depth technical support cooperation with various protocol partners on the construction of: a big-data enabled national respiratory disease intelligent early warning system; a cloud-based research platform focused on infectious respiratory system diseases, and an open collaborative information-sharing system for respiratory disease treatment research and best-practices to improve the efficiency of disease early warning and information transmission.</p>
     </div>
   </section>
 
 
   <section class="odd">
-    <div class="section-heading"><h2>防疫基金行动</h2></div>
+    <div class="section-heading"><h2>Fund Progress</h2></div>
     <div class="section-body container">
       <div class="events">
         <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+          <div class="event-date">Mar. 02</div>
+          <div class="event-name">Cooperation agreement signed with Peter Doherty Institute of Infection and Immunization, Australia.</div>
         </a>
         <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+          <div class="event-date">Feb. 18</div>
+          <div class="event-name">Cooperation agreement signed between the Mailman School of Public Health at Columbia University and the Foundation.</div>
         </a>
         <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+          <div class="event-date">Feb. 13</div>
+          <div class="event-name">4 party cooperation framework cooperation agreement signed between Guangdong Zhong Nanshan medical foundation, Guangzhou Respiratory Health Research Institute, Alibaba Cloud Computing and the Foundation.</div>
         </a>
         <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+          <div class="event-date">Feb 11</div>
+          <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Sciences.</div>
         </a>
         <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
-          <div class="event-date">1月29日</div>
-          <div class="event-name">新型冠状病毒研究与防治基金项目启动</div>
+          <div class="event-date">Feb. 07</div>
+          <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Engineering</div>
+        </a>
+        <a href="https://www.mayun.xin/index.html#/topic-detail/19289" class="event">
+          <div class="event-date">Jan. 29</div>
+          <div class="event-name">Novel coronavirus research and control fund project launched</div>
         </a>
       </div>
     </div>
   </section>
 
   <section class="even">
-    <div class="section-heading"><h2>捐赠明细</h2></div>
+    <div class="section-heading"><h2>Donation Details</h2></div>
     <div class="section-body container">
       <table class="donations">
         <thead>
           <tr>
-            <th class="column-1">受捐单位</th>
-            <th style="text-align: right;">协议金额</th>
-            <th style="text-align: right;">首期支付</th>
+            <th class="column-1">Donated to</th>
+            <th style="text-align: right;">Agreement amount</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>中国工程院</td>
+            <td>Chinese Academy of Engineering</td>
             <td style="text-align: right;">2,000.00</td>
-            <td style="text-align: right;">1,050.00</td>
           </tr>
           <tr>
-            <td>中国科学院</td>
+            <td>Chinese Academy of Science</td>
             <td style="text-align: right;">2,000.00</td>
-            <td style="text-align: right;">1,000.00</td>
           </tr>
           <tr>
-            <td>广州呼吸健康研究院、广东省钟南山医学基金会</td>
+            <td>Guangdong Zhong Nanshan Medical Foundation, Guangzhou Respiratory Health Research Institute</td>
             <td style="text-align: right;">600.00</td>
-            <td style="text-align: right;">400.00</td>
           </tr>
           <tr>
-            <td>美国哥伦比亚大学</td>
+            <td>Columbia University</td>
             <td style="text-align: right;">1,506.00</td>
-            <td style="text-align: right;">903.00</td>
           </tr>
           <tr>
-            <td>澳大利亚Peter Doherty感染与免疫研究所</td>
+            <td>Peter Doherty Institute of Infection and Immunization, Australia</td>
             <td style="text-align: right;">1,538.00</td>
-            <td style="text-align: right;">1,204.00</td>
           </tr>
           <tr style="font-weight: bold;">
-            <td>合计</td>
+            <td>Total</td>
             <td style="text-align: right;">7,644.00</td>
-            <td style="text-align: right;">4,557.00</td>
           </tr>
         </tbody>
       </table>
@@ -111,7 +122,10 @@ permalink: /program/2019ncov/
 
 
   <section class="even">
-    <div class="section-heading"><h2>项目内容</h2></div>
+    <div class="section-heading">
+      <h2>Project Content</h2>
+      <p style="font-size: 14px; margin-top: 40px; color: #999">Introduction of partners,teams and research directions</p>
+    </div>
     <div class="section-body container">
       <div class="teams">
         <div class="col-12 col-md-6">
@@ -263,7 +277,7 @@ permalink: /program/2019ncov/
   </section>
 
   <section class="odd">
-    <div class="section-heading"><h2>最新进展</h2></div>
+    <div class="section-heading"><h2>Related News</h2></div>
     <div class="section-body container">
       <ul class="news">
         {% for post in site.posts %}
@@ -280,7 +294,7 @@ permalink: /program/2019ncov/
 
 </div>
 
-<div class="program-panel" id="wuzi">
+<div class="program-panel materials">
 
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>项目介绍</h2></div>
