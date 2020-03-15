@@ -124,7 +124,7 @@ permalink: /program/covid-19-fund/
   <section class="even">
     <div class="section-heading">
       <h2>Project Content</h2>
-      <p style="font-size: 14px; margin-top: 40px; color: #999">Introduction of partners,teams and research directions</p>
+      <p style="font-size: 14px; margin-top: 40px; color: #999">Introduction of partners, teams and research directions</p>
     </div>
     <div class="section-body container">
       <div class="teams">
