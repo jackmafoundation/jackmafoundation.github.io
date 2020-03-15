@@ -3,7 +3,7 @@ layout: about
 title: 关于我们
 permalink: /about/
 
-header: About JackMa Foundation
+header: ABOUT
 secondary: 关注教育、企业家精神、医疗环保、女性领导力
 cover: https://img.mayun.xin/upload/2017120408/bb2cdfc1031c33b7807fddeb877955b4.jpg
 ---

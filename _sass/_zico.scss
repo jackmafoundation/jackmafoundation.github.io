@@ -4,13 +4,55 @@
 
 $brandColor: #ff7200;
 
+@font-face {
+    font-family: Butler;
+    src: url(/assets/fonts/Butler_Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Butler;
+    src: url(/assets/fonts/Butler_Medium.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Butler;
+    src: url(/assets/fonts/Butler_ExtraBold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: AlibabaSans;
+    src: url(/assets/fonts/AlibabaSans-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: AlibabaSans;
+    src: url(/assets/fonts/AlibabaSans-Medium.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: AlibabaSans;
+    src: url(/assets/fonts/AlibabaSans-Heavy.otf);
+    font-weight: 800;
+}
+
+
+
 
 body {
     -webkit-font-smoothing: antialiased;
-    font-family: "Classic Grotesque W01", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-family: AlibabaSans, "Classic Grotesque W01", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
     font-size: 15px;
 }
 
+
+.font-serif {
+    font-family: Butler,QingKe,sans-serif,SimSun
+}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -81,30 +123,6 @@ a {
             span {
                 margin-left: 5px;
             }
-        }
-    }
-
-    &.navbar-inverse {
-        .navbar-toggle {
-            border: none;
-
-            &:hover {
-                background: rgba(255,255,255,0.3);
-            }
-        }
-    }
-
-    .navbar-collapse {
-        position: absolute;
-        left: 15px;
-        right: 15px;
-        background: white;
-        box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
-
-        .navbar-nav li a {
-            height: 60px;
-            line-height: 60px;
-            color: #333;
         }
     }
 
@@ -352,12 +370,12 @@ img {
 
             .field-content {
                 position: absolute;
-                top: 30px;
+                top: 40px;
                 left: 20px;
                 color: white;
                 .field-name {
                     font-size: 24px;
-                    font-weight: bold;
+                    font-weight: 700;
                 }
                 .field-slogan {
                     font-size: 18px;
@@ -419,6 +437,50 @@ img {
             color: white;
             font-size: 40px;
             font-weight: normal;
+        }
+    }
+}
+
+
+/**  Page Programs  **/
+.page-programs {
+    .featured-program {
+        display: block;
+        img {
+            border-radius: 8px;
+        }
+    }
+    .program-section {
+        margin-top: 60px;
+        display: block;
+        position: relative;
+        .program-item {
+            overflow: hidden;
+            padding: 2px;
+            margin: 20px 0;
+            position: relative;
+            display: block;
+            .cover {
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                background-position: center;
+                float: left;
+                margin-right: 20px;
+                border-radius: 2px;
+            }
+            .content {
+                float: left;
+                .title {
+                    margin-top: 10px;
+                }
+                .description {
+
+                }
+                .btn {
+                    
+                }
+            }
         }
     }
 }
@@ -642,7 +704,9 @@ img {
 .sidebar {
     margin-top: 5px;
     padding-right: 40px;
+    overflow: hidden;
     .cbox {
+        position: fixed;
         border: none;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
@@ -729,7 +793,7 @@ img {
     }
 
     &.container {
-        width: 800px;
+        max-width: 800px;
     }
 }
 
@@ -738,6 +802,8 @@ img {
     .sectitle {
         text-align: center;
         margin-bottom: 55px;
+        font-family: AlibabaSans;
+        font-weight: 800;
     }   
 }
 
@@ -1018,21 +1084,55 @@ table {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar .navbar-nav {
-        float: none; 
-        li {
-            margin-left: 0;
-            a {
-                &:hover {
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,PingFang SC,Helvetica Neue,STHeiti,Microsoft Yahei,Tahoma,Simsun,sans-serif;
+    }
+
+    .navbar {
+        .navbar-nav {
+            float: none; 
+            li {
+                margin-left: 0;
+                a {
+                    &:hover {
+                        border-color: transparent;
+                        background: #f3f3f3;
+                    }
+                }
+                &.active a {
                     border-color: transparent;
-                    background: #f3f3f3;
                 }
             }
-            &.active a {
-                border-color: transparent;
+        }
+
+        &.navbar-inverse {
+            .navbar-toggle {
+                border: none;
+
+                &:hover {
+                    background: rgba(255,255,255,0.3);
+                }
             }
         }
+
+        .navbar-collapse {
+            border: none;
+            position: absolute;
+            left: 15px;
+            right: 15px;
+            background: white;
+            box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+            z-index: 100;
+
+            .navbar-nav li a {
+                height: 60px;
+                line-height: 60px;
+                color: #333;
+            }
+        }
+        
     }
+    
     .startup-list {
         li {
             width: 100%;
@@ -1049,6 +1149,14 @@ table {
         }
         p {
             font-size: 16px;
+        }
+
+        .banner-content {
+            padding-top: 150px;
+            padding-bottom: 20px;
+            .page-title {
+                font-size: 28px;
+            }
         }
     }
     .index-banner {
