@@ -284,7 +284,7 @@ permalink: /program/covid-19/fund
   </section>
 
   <section class="even">
-    <div class="section-heading"><h2>Donation Progress</h2></div>
+    <div class="section-heading"><h2>Latest News</h2></div>
     <div class="section-body container">
       <div class="row">
       {% assign counter=0 %}
