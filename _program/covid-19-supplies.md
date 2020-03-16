@@ -19,7 +19,7 @@ permalink: /program/covid-19/supplies
 </div>
 
 <div class="container ncov-nav-tabs">
-  <a class="tab" href="/program/covid-19/fund" id="tab-research" data-target="research">
+  <a class="tab" href="/program/covid-19" id="tab-research" data-target="research">
     <h2>Fund on COVID-19 Research, Prevention and Treatment</h2>
   </a>
   <a class="tab active" id="tab-supplies" data-target="supplies">
