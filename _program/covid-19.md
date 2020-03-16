@@ -545,7 +545,6 @@ permalink: /program/covid-19/
     <div class="section-body container">
       <div class="events">
         <h3 id="toc_0">13th March</h3>
-        <h3 id="toc_0">13th March</h3>
 
 <p>Apart from Japan, South Korea, Iran, Italy, Spain, and the US, we’ve also paid close attention to the situation in Africa and we are aware of the shortage of healthcare goods. We are raising masks and testing kits for urgent delivery to African countries. The first round of virus detection kits are ready to depart for Africa.</p>
 
