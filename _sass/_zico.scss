@@ -323,6 +323,7 @@ img {
         .news-item {
             list-style-type: none;
             margin: 10px 0;
+            line-height: 1.6;
             .publish-date {
                 margin-right: 15px;
                 opacity: 0.8;
@@ -871,13 +872,16 @@ img {
     border-radius: 8px;
     padding: 20px 30px 24px 30px;
     line-height: 40px;
+    font-weight: bold;
+    color: #333;
 
     .prefix-label {
         float: left;
+        font-size: 20px;
     }
 
     .program-info {
-        margin-left: 150px;
+        margin-left: 190px;
         .title {
             font-size: 20px;
         }

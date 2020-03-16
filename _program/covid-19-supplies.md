@@ -269,7 +269,7 @@ permalink: /program/covid-19-supplies/
         </table>
       </div>
       <p>Note：</p>
-      <p>Detection Kit：Detection Kit for 2019 Novel Coronavirus(2019-nCov)RNA(PCR-Fluorescence Probing)</p>
+      <p>Detection Kit：Detection Kit for 2019 Novel Coronavirus(COVID-19)RNA(PCR-Fluorescence Probing)</p>
       <p>NAT：Improviral Nat Medium(NAT)</p>
     </div>
   </section>

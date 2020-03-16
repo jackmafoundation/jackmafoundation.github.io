@@ -1,6 +1,6 @@
 ---
 layout: program
-title:  "Fund on COVID-19 Research, Prevention and Treatment"
+title:  "Fund on COVID-19 Research, </br>Prevention and Treatment"
 cover: https://img.mayun.xin/upload/2020022712/a8626acf81864c5920c1411ceeefbedc.jpg?x-oss-process=image/blur,r_10,s_6
 slogan: Supporting Research and Development of Drugs and Vaccines on COVID-19
 permalink: /program/covid-19-fund/
@@ -35,15 +35,15 @@ permalink: /program/covid-19-fund/
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of one hundred million yuan to support the R&amp;D of 2019-nCoV treatment drugs and vaccines.</p>
+      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of one hundred million yuan to support the R&amp;D of COVID-19 treatment drugs and vaccines.</p>
 
-      <p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received 20 million yuan for the special R&amp;D of vaccines within their professional research institutes. The remaining funds will be used to support the research and development of 2019-nCoV by leading research institutes and researchers at home and abroad.</p>
+<p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received 20 million yuan for the special R&amp;D of vaccines within their professional research institutes. The remaining funds will be used to support the research and development of COVID-19 by leading research institutes and researchers at home and abroad.</p>
 
-      <p>&quot;We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma foundation will do its best to provide more help for the development and accumulation of medical science. &quot; Jack Ma, Founder of JMF said.</p>
+<p>&quot;We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma foundation will do its best to provide more help for the development and accumulation of medical science.&quot; Jack Ma, Founder of JMF said.</p>
 
-      <p>Jack Ma called on all scientific researchers and research institutions to work together to gather human and material resources and to give confidence to the Chinese people and all nationalities that the disease will be overcome. In addition, Alibaba group announced that it will open all the AI computing power needed for the development of virus vaccines and new drugs to public scientific research institutions for free</p>
+<p>Jack Ma called on all scientific researchers and research institutions to work together to gather human and material resources and to give confidence to the Chinese people and all nationalities that the disease will be overcome. In addition, Alibaba group announced that it will open all the AI computing power needed for the development of virus vaccines and new drugs to public scientific research institutions for free.</p>
 
-      <p>In the future,  Alibaba Cloud Computing also plans to discuss relevant in-depth technical support cooperation with various protocol partners on the construction of: a big-data enabled national respiratory disease intelligent early warning system; a cloud-based research platform focused on infectious respiratory system diseases, and an open collaborative information-sharing system for respiratory disease treatment research and best-practices to improve the efficiency of disease early warning and information transmission.</p>
+<p>In the future, Alibaba Cloud Computing also plans to discuss relevant in-depth technical support cooperation with various protocol partners on the construction of: a big-data enabled national respiratory disease intelligent early warning system; a cloud-based research platform focused on infectious respiratory system diseases, and an open collaborative information-sharing system for respiratory disease treatment research and best-practices to improve the efficiency of disease early warning and information transmission.</p>
     </div>
   </section>
 
