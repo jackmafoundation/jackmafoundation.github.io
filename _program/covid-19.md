@@ -1,13 +1,22 @@
 ---
 layout: program
 title:  "Financial aid programme for the control and prevention of COVID-19"
-cover: https://img.mayun.xin/upload/2020022712/a8626acf81864c5920c1411ceeefbedc.jpg?x-oss-process=image/blur,r_10,s_6
+cover: https://img.mayun.xin/upload/2020031606/ea736caee7c07d6fbaed0b42a059cdd1.JPG?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-60
 slogan: 
 permalink: /program/covid-19/
 ---
 
 
 <div class="page-ncov">
+
+<div class="banner program-banner" style="background-image: url('{{page.cover}}');">
+	<div class="banner-content">
+		<div class="container" >
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.slogan }}</p>
+		</div>
+	</div>
+</div>
 
 <div class="container ncov-nav-tabs">
   <div class="tab active" id="tab-research" data-target="research">
