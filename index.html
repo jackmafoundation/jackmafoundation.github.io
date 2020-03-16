@@ -22,22 +22,22 @@ layout: default
 <section class="latest-news-section container">
 	<div class="latest-news-card">
 		<a class="indicator" href="/blog">The Latest</a>
-		<ul class="news">
+		<div class="news">
 			{% for post in site.posts limit:3 %}
-			<li class="news-item">
+			<div class="news-item">
 				<span class="publish-date">{{ post.date | date: "%m-%d" }}</span>
 				<a class="news-title" href="{{ post.url }}">{{ post.title }}</a>
-			</li>
+			</div>
 			{% endfor %}
-		</ul>
+		</div>
 	</div>
 </section>
 
 <section class="sec fields-section" style="margin-bottom: 60px;">
 	<div class="container">
 		<h3 class="sectitle" style="text-align: left;">OUR WORK</h3>
-		<ul class="fields">
-			<li class="field">
+		<div class="fields">
+			<div class="field">
 				<a href="/our-work/#field-entrepreneurship">
 					<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2020031604/2a047da016856baa7ba4e086b0fcc799.png?x-oss-process=image/resize,w_1000,h_700/format,jpg)">
 					</div>
@@ -47,8 +47,8 @@ layout: default
 						<div class="btn">Learn More</div>
 					</div>
 				</a>
-			</li>
-			<li class="field field-active">
+			</div>
+			<div class="field field-active">
 				<a href="/our-work/#field-education">
 					<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2020031605/f79724727b767dc6353c35d3224857b7.jpg?x-oss-process=image/resize,w_1000,h_700/format,jpg)">
 					</div>
@@ -58,8 +58,8 @@ layout: default
 						<div class="btn">Learn More</div>
 					</div>
 				</a>
-			</li>
-			<li class="field">
+			</div>
+			<div class="field">
 				<a href="/our-work/#field-medical">
 					<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2020031513/9b67de1780e6ab91babf2f612326610a.jpg?x-oss-process=image/resize,w_1000,h_700/format,jpg)">
 					</div>
@@ -69,8 +69,8 @@ layout: default
 						<div class="btn">Learn More</div>
 					</div>
 				</a>
-			</li>
-			<li class="field">
+			</div>
+			<div class="field">
 				<a href="/our-work/#field-women-leadership">
 					<div class="field-cover" style="background-image: url(https://img.mayun.xin/upload/2020031607/72c4cacf04e775699b815be30daaafa5.png?x-oss-process=image/resize,w_1000,h_700/format,jpg)">
 					</div>
@@ -80,8 +80,8 @@ layout: default
 						<div class="btn">Learn More</div>
 					</div>
 				</a>
-			</li>
-		</ul>
+			</div>
+		</div>
 	</div>
 </section>
 

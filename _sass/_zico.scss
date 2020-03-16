@@ -322,7 +322,7 @@ img {
         font-style: italic;
         margin-right: 40px;
     }
-    ul.news {
+    .news {
         float: left;
         line-height: 2.2;
         margin-bottom: 0;
@@ -349,7 +349,7 @@ img {
 
 .fields-section {
     margin-top: 55px;
-    ul.fields {
+    .fields {
         padding-inline-start: 0;
         margin-block-start: 0;
         margin-block-end: 0;
@@ -593,7 +593,7 @@ img {
     .latest-news-section {
         .latest-news-card {
             padding: 15px;
-            ul.news {
+            .news {
                 .news-item {
                     .news-title {
                         display: block;
@@ -1998,7 +1998,7 @@ table {
 
     .fields-section {
         margin-top: 30px;
-        ul.fields {
+        .fields {
             .field {
                 width: 100% !important;
                 margin-bottom: 15px;
