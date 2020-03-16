@@ -16,7 +16,7 @@ JMF is committed to cultivating future-oriented rural educators and entrepreneur
 
 The foundation will always uphold the concept of "public interest mentality, business practices", adhere to the principle of openness and transparency, not only focus on training a professional and efficient public welfare team, but also awaken a group of like-minded people, and strive to make contributions to China's public welfare.
 
-The foundation strives to uphold the concept of combining a public welfare mindset with a business approach to achieve maximum results. It aims to adhere to the principle of openness and transparency; to not only focus on training a professional and efficient public welfare team but to also awaken a group of like-minded people. Lastly, the Foundation strives to make contributions to China's public welfare.
+The foundation strives to uphold the concept of combining a public welfare mindset with a business approach to achieve maximum results. It aims to adhere to the principle of openness and transparency; to not only focus on training a professional and efficient public welfare team but to also awaken a group of like-minded people. Lastly, the foundation strives to make contributions to China's public welfare.
 
 
 ## Vision Statement of Jack Ma Foundation
