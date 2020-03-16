@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 
 header: ABOUT
-secondary: "Focus on four areas: entrepreneurship, education, women’s leadership, medical and environmental protection"
+secondary: "Focus on entrepreneurship, education, women’s leadership, medical and environmental protection"
 cover: https://img.mayun.xin/upload/2017120408/bb2cdfc1031c33b7807fddeb877955b4.jpg
 ---
 
