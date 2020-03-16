@@ -7,7 +7,10 @@ layout: default
 <div class="container page page-programs">
   	<div class="left main-content">
 
-      <a class="featured-program" href="/program/covid-19" style="background-image: url(https://img.mayun.xin/upload/2020031607/0c70171ade15eb5e8d6d9cde12023af9.jpg"></a>
+      <a class="featured-program" href="/program/covid-19">
+        <img class="pc" src="https://img.mayun.xin/upload/2020031607/0c70171ade15eb5e8d6d9cde12023af9.jpg"/>
+        <img class="mobile" src="https://img.mayun.xin/upload/2020031609/ad7020bf394fb69e1ef1644b3246d8b5.jpg"/>
+      </a>
 
       {% for domain in site.data.programs %}
       <div class="program-section" data-scroll-flag="section-1" id="field-{{ domain.label }}">

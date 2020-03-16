@@ -2,8 +2,7 @@
 layout: post
 title:  "Donating $14.28 million to support accelerating the research and development of NCP vaccine"
 date:   2020-01-29 14:05:17
-author: Admin
-cover: https://img.mayun.xin/upload/2020012911/fefc789bf7b6a7ac21e16da3cea4ea58.jpg
+cover: https://img.mayun.xin/upload/2020031609/ae9dc361b6367c07275f1ac578a60554.JPG
 permalink: /blog/donation-100-million-covid-19/
 tags: [2019nCOV]
 ---
