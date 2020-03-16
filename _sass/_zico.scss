@@ -353,6 +353,8 @@ img {
         padding-inline-start: 0;
         margin-block-start: 0;
         margin-block-end: 0;
+        overflow: hidden;
+        margin: 0;
         .field {
             overflow: hidden;
             margin-bottom: 90px;
@@ -367,12 +369,15 @@ img {
             -webkit-transition: width .5s;
             -o-transition: width .5s;
             border: 2px solid white;
+
+            a {
+                display: block;
+            }
             
 
             .field-cover {
                 background-size: cover;
                 background-position: center center;
-                padding: 20px;
                 height: 500px;
                 border: 1;
                 border-radius: 2px;
