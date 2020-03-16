@@ -22,7 +22,7 @@ permalink: /program/covid-19/fund
   <a class="tab active" id="tab-research" data-target="research">
     <h2>Fund on COVID-19 Research, Prevention and Treatment</h2>
   </a>
-  <a class="tab" href="supplies" id="tab-supplies" data-target="supplies">
+  <a class="tab" href="/program/covid-19/supplies" id="tab-supplies" data-target="supplies">
     <h2>Donation of Medical Supplies for the Control and Prevention of COVID-19</h2>
   </a>
 </div>
