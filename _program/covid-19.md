@@ -1,6 +1,6 @@
 ---
 layout: program
-title:  "Financial Aid Programme for the Control and <br/>Prevention of COVID-19 "
+title:  "Financial Aid Programme for the Control and <br/>Prevention of COVID-19"
 cover: https://img.mayun.xin/upload/2020031606/ea736caee7c07d6fbaed0b42a059cdd1.JPG?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-60
 slogan: 
 permalink: /program/covid-19/
