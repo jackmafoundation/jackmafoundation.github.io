@@ -360,6 +360,7 @@ img {
             -moz-transition: width .5s;
             -webkit-transition: width .5s;
             -o-transition: width .5s;
+            border: 2px solid white;
             
 
             .field-cover {
@@ -368,10 +369,13 @@ img {
                 padding: 20px;
                 height: 500px;
                 border: 1;
+                border-radius: 2px;
                 position: relative;
 
                 &::after {
-                    background: rgba(0,0,0,0.4);
+                    background: linear-gradient(180deg, rgba(74,74,74,0.05) 0%, rgba(0,0,0,0.6) 100%);
+                    
+                    // background: rgba(0,0,0,0.4);
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -383,19 +387,23 @@ img {
 
             .field-content {
                 position: absolute;
-                top: 40px;
+                bottom: 50px;
                 left: 20px;
+                right: 20px;
                 color: white;
                 .field-name {
                     font-size: 24px;
                     font-weight: 700;
+                    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
                 }
                 .field-slogan {
                     font-size: 18px;
                     margin-top: 10px;
                     opacity: 0;
+                    display: none;
                 }
                 .btn {
+                    display: none;
                     opacity: 0;
                     border-radius: 40px;
                     border: 1px solid rgba(255,255,255,0.8);
@@ -413,10 +421,12 @@ img {
 
                 .field-content {
                     .field-slogan {
+                        display: block;
                         opacity: 1;
                     }
                     .btn {
                         opacity: 1;
+                        display: inline-block;
                     }
                 }
             }
@@ -627,10 +637,6 @@ img {
             background: #f9f9f9;
         }
 
-        .container {
-            max-width: 960px;
-        }
-        
         .section-heading {
             margin: 0 auto;
             font-size: 24px;
@@ -701,6 +707,7 @@ img {
         border: 1px solid #f0f0f0;
         border-radius: 0;
         margin-top: 15px;
+        width: 100%;
 
         thead tr {
             height: 48px;
@@ -817,11 +824,12 @@ img {
         .aid {
             margin-bottom: 40px;
             .country {
-                font-size: 16px;
+                font-size: 20px;
                 font-weight: bold;
                 display: inline-block;
                 position: relative;
                 z-index: 10;
+                margin-bottom: 10px;
                 &::after {
                     content: ' ';
                     border-bottom: 8px solid rgba(50, 143, 240, 0.4);
@@ -836,6 +844,13 @@ img {
                 overflow-x: auto;
                 width: 100%;
             }
+        }
+    }
+
+    .events {
+        h3 {
+            font-size: 20px;
+            margin: 40px 0 15px 0;
         }
     }
 }
@@ -911,9 +926,9 @@ img {
 .ncov-nav-tabs {
     background: #fafafa;
     box-shadow: 0 2px 20px 0 rgba(0,0,0,.05);
-    max-width: 960px;
     margin: -110px auto 60px auto;
     border-radius: 8px;
+    max-width: 1140px;
     padding: 0;
 
     .tab {
@@ -1862,21 +1877,24 @@ table {
                     border-radius: 4px;
 
                     &::after {
-                        background: linear-gradient(180deg, rgba(74,74,74,0.05) 0%, rgba(0,0,0,0.40) 100%);
+                        background: linear-gradient(180deg, rgba(74,74,74,0.05) 0%, rgba(0,0,0,0.60) 100%);
                     }
                 }
                 .field-content {
                     top: auto;
                     bottom: 25px;
+                    left: 15px;
+                    right: 15px;
                     .field-name {
                         font-size: 20px;
                     }
                     .field-slogan {
                         opacity: 1;
+                        display: block;
                         font-size: 14px;
                     }
                     .btn {
-                        display: none;
+                        display: none !important;
                     }
                 }
                 &.field-active {
