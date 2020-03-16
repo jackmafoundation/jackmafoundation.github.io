@@ -32,24 +32,24 @@
       $(e).addClass("field-active")
 	  })
 
-	  $('.tab').click(function(){
-      var e=this;
-      $('.tab.active').removeClass('active')
-      $(e).addClass("active")
+	  // $('.tab').click(function(){
+    //   var e=this;
+    //   $('.tab.active').removeClass('active')
+    //   $(e).addClass("active")
 
-      $('.program-panel.active').removeClass('active')
-      var target = '.' + $(e).data('target')
-      $(target).addClass('active')
-      // $(".panel-wuzi").show();
-    })
+    //   $('.program-panel.active').removeClass('active')
+    //   var target = '.' + $(e).data('target')
+    //   $(target).addClass('active')
+    //   // $(".panel-wuzi").show();
+    // })
     
-    var hash = window.location.hash;
-    if (hash) {
-      $('.program-panel').removeClass('active')
-      $('.' + hash.substr(1)).addClass('active')
+    // var hash = window.location.hash;
+    // if (hash) {
+    //   $('.program-panel').removeClass('active')
+    //   $('.' + hash.substr(1)).addClass('active')
 
-      $('.tab').removeClass('active')
-      $('#tab-' + hash.substr(1)).addClass('active')
-    }
+    //   $('.tab').removeClass('active')
+    //   $('#tab-' + hash.substr(1)).addClass('active')
+    // }
 	});
 </script>

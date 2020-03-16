@@ -5,7 +5,7 @@ date:   2020-02-21 14:05:17
 author: Admin
 cover: https://img.mayun.xin/upload/2020022409/5f3728dcb0c8a8522bb817f0fd2a7aed.png
 permalink: /blog/hands-with-columbia-university-for-covid-19/
-tags: [COVID-19]
+tags: [COVID-19-Fund]
 ---
 
 > David Ho, foreign member of Chinese Academy of Engineering, leads R&D on drugs and antibodies for the novel coronavirus at Columbia University
