@@ -69,7 +69,7 @@ permalink: /program/covid-19/
         </a>
         <a class="event">
           <div class="event-date">Feb. 13</div>
-          <div class="event-name">4 party cooperation framework cooperation agreement signed between Guangdong Zhong Nanshan medical foundation, Guangzhou Respiratory Health Research Institute, Alibaba Cloud Computing and the Foundation.</div>
+          <div class="event-name">4 party cooperation framework cooperation agreement signed between Guangdong Zhong Nanshan Medical Foundation, Guangzhou Respiratory Health Research Institute, Alibaba Cloud Computing and the Foundation.</div>
         </a>
         <a class="event">
           <div class="event-date">Feb 11</div>
