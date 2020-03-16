@@ -14,7 +14,7 @@ permalink: /program/covid-19/
     <h2>Fund on COVID-19 Research, Prevention and Treatment</h2>
   </div>
   <div class="tab" id="tab-supplies" data-target="supplies">
-    <h2>Donation of medical supplies for the control and prevention of COVID-19</h2>
+    <h2>Donation of Medical Supplies for the Control and Prevention of COVID-19</h2>
   </div>
 </div>
 
