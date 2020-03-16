@@ -91,27 +91,27 @@ permalink: /program/covid-19/
         <tbody>
           <tr>
             <td>Chinese Academy of Engineering</td>
-            <td style="text-align: right;">2,000.00</td>
+            <td style="text-align: right;">CNY 20,000,000.00</td>
           </tr>
           <tr>
             <td>Chinese Academy of Science</td>
-            <td style="text-align: right;">2,000.00</td>
+            <td style="text-align: right;">CNY 20,000,000.00</td>
           </tr>
           <tr>
             <td>Guangdong Zhong Nanshan Medical Foundation, Guangzhou Respiratory Health Research Institute</td>
-            <td style="text-align: right;">600.00</td>
+            <td style="text-align: right;">CNY 6000,000.00</td>
           </tr>
           <tr>
             <td>Columbia University</td>
-            <td style="text-align: right;">1,506.00</td>
+            <td style="text-align: right;">CNY 15,060,000.00</td>
           </tr>
           <tr>
             <td>Peter Doherty Institute of Infection and Immunization, Australia</td>
-            <td style="text-align: right;">1,538.00</td>
+            <td style="text-align: right;">CNY 15,380,000.00</td>
           </tr>
           <tr style="font-weight: bold;">
             <td>Total</td>
-            <td style="text-align: right;">7,644.00</td>
+            <td style="text-align: right;">CNY 76,440,000.00</td>
           </tr>
         </tbody>
       </table>
