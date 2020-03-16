@@ -26,7 +26,7 @@ layout: default
 		<ul class="news">
 			{% for post in site.posts limit:3 %}
 			<li class="news-item">
-				<span class="publish-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+				<span class="publish-date">{{ post.date | date: "%m-%d" }}</span>
 				<a class="news-title" href="{{ post.url }}">{{ post.title }}</a>
 			</li>
 			{% endfor %}
@@ -34,7 +34,7 @@ layout: default
 	</div>
 </section>
 
-<section class="sec fields-section">
+<section class="sec fields-section" style="margin-bottom: 60px;">
 	<div class="container">
 		<h3 class="sectitle" style="text-align: left;">OUR WORK</h3>
 		<ul class="fields">

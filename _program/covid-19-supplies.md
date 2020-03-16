@@ -331,22 +331,6 @@ How strong the storm will be, this time, we will face it together!</p>
       </div>
     </div>
   </section>
-
-  <!-- <section class="odd">
-    <div class="section-heading"><h2>最新进展</h2></div>
-    <div class="section-body container">
-      <ul class="news">
-        {% for post in site.posts %}
-          {% if post.tags contains "2019nCOV" %}
-          <li class="item">
-            <a href="{{ post.url }}" class="title">{{ post.title }}</a> 
-            <div class="date">{{ post.date | date: "%Y-%m-%d" }}</div>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </section> -->
 </div>
 
 </div>

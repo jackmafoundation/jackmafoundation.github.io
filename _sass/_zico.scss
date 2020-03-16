@@ -158,7 +158,11 @@ a {
 }
 
 .page-content {
-    padding-bottom: 60px;
+    padding-bottom: 0;
+
+    .page {
+        padding-bottom: 60px;
+    }
 }
 
 .site-footer {
@@ -533,6 +537,20 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .latest-news-section {
+        .latest-news-card {
+            padding: 15px;
+            ul.news {
+                .news-item {
+                    .news-title {
+                        display: block;
+                        margin-left: 60px;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
+    }
     .sidebar {
         display: none;
     }
@@ -825,9 +843,11 @@ img {
 @media screen and (max-width: 768px) {
     .banner.program-banner {
         .banner-content {
-            padding: 100px 0 50px 0;
+            padding: 110px 0 50px 0;
             h2 {
                 font-size: 24px;
+                text-align: left;
+                line-height: 1.4;
             }
             .p {
                 font-size: 14px;
@@ -904,6 +924,11 @@ img {
         position: relative;
         cursor: pointer;
         color: #666;
+        border-radius: 8px;
+
+        h2 {
+            font-size: 24px;
+        }
 
         &.active{
             color: #328ff0;
@@ -969,7 +994,9 @@ img {
                 padding: 15px 15px 25px 15px;
                 text-align: left;
                 h2 {
-                    font-size: 18px;
+                    font-size: 14px;
+                    line-height: 1.6;
+                    margin: 10px 0;
                 }
                 &.active::after {
                     content: ' ';
