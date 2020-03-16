@@ -1,6 +1,6 @@
 ---
 layout: program
-title:  "Financial aid programme for the control and prevention of COVID-19"
+title:  "Financial Aid Programme for the Control and <br/>Prevention of COVID-19 "
 cover: https://img.mayun.xin/upload/2020031606/ea736caee7c07d6fbaed0b42a059cdd1.JPG?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-60
 slogan: 
 permalink: /program/covid-19/
@@ -100,27 +100,27 @@ permalink: /program/covid-19/
         <tbody>
           <tr>
             <td>Chinese Academy of Engineering</td>
-            <td style="text-align: right;">CNY 20,000,000.00</td>
+            <td style="text-align: right;">$2.86 million</td>
           </tr>
           <tr>
             <td>Chinese Academy of Science</td>
-            <td style="text-align: right;">CNY 20,000,000.00</td>
+            <td style="text-align: right;">$2.86 million</td>
           </tr>
           <tr>
             <td>Guangdong Zhong Nanshan Medical Foundation, Guangzhou Respiratory Health Research Institute</td>
-            <td style="text-align: right;">CNY 6000,000.00</td>
+            <td style="text-align: right;">$0.86 million</td>
           </tr>
           <tr>
             <td>Columbia University</td>
-            <td style="text-align: right;">CNY 15,060,000.00</td>
+            <td style="text-align: right;">$2.15 million</td>
           </tr>
           <tr>
             <td>Peter Doherty Institute of Infection and Immunization, Australia</td>
-            <td style="text-align: right;">CNY 15,380,000.00</td>
+            <td style="text-align: right;">$2.15 million</td>
           </tr>
           <tr style="font-weight: bold;">
             <td>Total</td>
-            <td style="text-align: right;">CNY 76,440,000.00</td>
+            <td style="text-align: right;">$10.88 million</td>
           </tr>
         </tbody>
       </table>
