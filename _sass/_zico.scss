@@ -72,6 +72,11 @@ a {
     min-height: 80px;
     margin-bottom: 0px;
     border-radius: 0;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
 
     .container {
     }
@@ -159,6 +164,7 @@ a {
 
 .page-content {
     padding-bottom: 0;
+    position: relative;
 
     .page {
         padding-bottom: 60px;
@@ -248,17 +254,39 @@ img {
 }
 
 .index-banner {
-    background-image: url(https://img.mayun.xin/upload/2020031606/ea736caee7c07d6fbaed0b42a059cdd1.JPG?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-40);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 600px;
-    color: white;
 
-    .container {
+    .slide-image {
+        background-image: url(https://img.mayun.xin/upload/2020031606/ea736caee7c07d6fbaed0b42a059cdd1.JPG?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-40);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+
+        &::after {
+            content: ' ';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(54, 61, 77, 0.6);
+        }
+    }
+
+    .slide-content.container {
         height: 100%;
         padding-top: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 
     .slogan {
@@ -300,7 +328,6 @@ img {
 }
 
 .latest-news-section {
-    margin-top: -30px;
     .latest-news-card {
         background: white;
         overflow: hidden;
