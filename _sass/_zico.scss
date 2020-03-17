@@ -809,7 +809,7 @@ img {
         text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
         color: white;
         h2 {
-            font-size: 48px;
+            font-size: 42px;
         }
         .p {
             font-size: 20px;
@@ -1178,7 +1178,7 @@ img {
 
     .banner {
         .banner-content {
-            padding: 120px 0 30px 0 !important;
+            padding: 120px 0 30px 0;
 
             h2 {
                 font-size: 20px;
@@ -2041,6 +2041,7 @@ table {
     }
 
     .navbar {
+        min-height: 60px;
         .navbar-nav {
             float: none; 
             li {
@@ -2054,6 +2055,14 @@ table {
                 &.active a {
                     border-color: transparent;
                 }
+            }
+        }
+
+        .navbar-brand {
+            .logo {
+                margin: 20px 0;
+                height: 40px;
+                margin-left: -5px;
             }
         }
 

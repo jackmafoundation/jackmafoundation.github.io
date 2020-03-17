@@ -17,10 +17,10 @@ JMF is committed to cultivating future-oriented rural educators and entrepreneur
 The foundation strives to uphold the concept of combining a public welfare mindset with a business approach to achieve maximum results. It aims to adhere to the principle of openness and transparency; to not only focus on training a professional and efficient public welfare team but to also awaken a group of like-minded people. Lastly, the foundation strives to make contributions to China's public welfare.
 
 
-## Vision Statement of Jack Ma Foundation
+## Vision Statement
 
 Be an innovative public welfare organization with ideals, ideas, methods and principles.
 
-## Values of Jack Ma Foundation 
+## Values
 
 Customer First, Team Work, Embrace Change, Simplicity, Professionalism and Honesty.
