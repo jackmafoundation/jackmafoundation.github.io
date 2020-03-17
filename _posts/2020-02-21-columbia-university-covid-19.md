@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Jack Ma Foundation joins hands with Columbia University to advance  R&D for the novel coronavirus
+title:  The Jack Ma Foundation joins hands with Columbia University to advance R&D for the novel coronavirus
 date:   2020-02-21 14:05:17
 author: Admin
 cover: https://img.mayun.xin/upload/2020022409/5f3728dcb0c8a8522bb817f0fd2a7aed.png
@@ -15,9 +15,9 @@ tags: [COVID-19-Fund]
 ![](https://img.mayun.xin/upload/2020031516/8301f3611c34b3815991706b29223962.jpeg)
 *▲David Ho*
 
-Earlier in February 2020, the Jack Ma Foundation announced a donation of $14.28 million for supporting R&D on drugs and vaccine for the novel coronavirus. As part of this donation, the Foundation is also providing an award to Columbia University.
+Earlier in February 2020, the Jack Ma Foundation announced a donation of RMB 100 million (USD 14.26 million) for supporting R&D on drugs and vaccine for the novel coronavirus. As part of this donation, the Foundation is also providing an award to Columbia University.
 
-According to the Collaboration Agreement, Columbia University will undertake R&D around drugs and antibodies for the novel coronavirus. David Ho - the chief director –will be the head of the project and shall be responsible for providing leadership and guidance, goal setting, research and implementation and result tracking for relevant projects taking place under the cooperation framework. The Jack Ma Foundation will provide financial support of over $2.15 million for relevant research.
+According to the Collaboration Agreement, Columbia University will undertake R&D around drugs and antibodies for the novel coronavirus. David Ho - the chief director –will be the head of the project and shall be responsible for providing leadership and guidance, goal setting, research and implementation and result tracking for relevant projects taking place under the cooperation framework. The Jack Ma Foundation will provide financial support of over USD 2.15 million for relevant research.
 
 Under this collaboration, Columbia University has established a research team composed of virologists, molecular biologists, chemists, and other professionals, who will use four different methods to identify antiviral drugs and antibodies to prevent virus replication. This world-class team of scientist and engineers come from Columbia’s Vagelos College of Physicians and Surgeons and Columbia’s School of Engineering and Applied Sciences. Many of them are senior members of the Aaron Diamond AIDS Research Center.
 
