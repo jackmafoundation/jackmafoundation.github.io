@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Belgium Receives Second Shipment of Donations ahead of Schedule
+title:  Belgium receives second shipment of donations ahead of schedule
 date:   2020-03-16 14:05:17
 cover: https://img.mayun.xin/upload/2020031615/9caab8f0e5424cf467c7006b19865ffe.JPG
 permalink: /blog/covid-19-second-shipment-of-donation-to-belgium/
