@@ -42,9 +42,9 @@ permalink: /program/covid-19/fund
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of one hundred million yuan to support the R&amp;D of COVID-19 treatment drugs and vaccines.</p>
+      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of $14.28 million to support the R&amp;D of COVID-19 treatment drugs and vaccines.</p>
 
-<p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received 20 million yuan for the special R&amp;D of vaccines within their professional research institutes. The remaining funds will be used to support the research and development of COVID-19 by leading research institutes and researchers at home and abroad.</p>
+<p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received $2.86 million for the special R&amp;D of vaccines within their professional research institutes. The remaining funds will be used to support the research and development of COVID-19 by leading research institutes and researchers at home and abroad.</p>
 
 <p>&quot;We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma Foundation will do its best to provide more help for the development and accumulation of medical science.&quot; Jack Ma, Founder of JMF said.</p>
 
