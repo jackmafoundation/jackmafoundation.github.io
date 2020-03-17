@@ -44,10 +44,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -77,10 +77,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -98,10 +98,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -131,10 +131,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -158,10 +158,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -185,10 +185,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -212,10 +212,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>
@@ -239,10 +239,10 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-1">Goods</th>
+              <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Donors</th>
             </tr>
           </thead>
           <tbody>

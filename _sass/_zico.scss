@@ -770,9 +770,6 @@ img {
         tbody tr {
             color: #808080;
             border: none;
-            &:nth-child(even) {
-                background-color: #fafafa;
-            }
         }
 
         th, td {
@@ -895,6 +892,12 @@ img {
             table {
                 overflow-x: auto;
                 width: 100%;
+
+                thead {
+                    .column-3 {
+                        width: 30%;
+                    }
+                }
             }
         }
     }
@@ -939,9 +942,6 @@ img {
             .event {
                 width: 100%;
             }
-        }
-        .donations {
-
         }
     }
 }
@@ -1170,6 +1170,16 @@ img {
                     display: block;
                     overflow-x: auto;
                     width: 100%;
+
+                    thead {
+                        .column-3 {
+                            width: auto;
+                        }
+                        
+                    }
+                    th, td {
+                        line-height: 1.4;
+                    }
                 }
             }
         }
