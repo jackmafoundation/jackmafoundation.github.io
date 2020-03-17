@@ -1,6 +1,6 @@
 ---
 layout: blog-list
-title: 文章归档
+title: Tags
 permalink: /blog/category/
 
 header: Posts filtered by tag
