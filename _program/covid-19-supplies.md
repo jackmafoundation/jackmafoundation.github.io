@@ -32,7 +32,7 @@ permalink: /program/covid-19/supplies
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>Since the outbreak of novel coronavirus pneumonia began to spread around the world, the Jack Ma Foundation has worked to contribute to highly-affected countries’ response efforts. With the support of the Alibaba Foundation, we have sourced and donated many masks and other personal protective equipment (PPE). So far, we have donated masks and kits to Japan, Korea, Iran, Italy, Spain, the United States, and Africa. We hope to continue to promptly deliver these epidemic prevention materials to those in need and offer our sincere thanks to all countries who have helped us in our efforts so far.</p>
+      <p>Since the outbreak of novel coronavirus pneumonia began to spread around the world, the Jack Ma Foundation has worked to contribute to highly-affected countries’ response efforts. Partner with Alibaba Foundation, we have sourced and donated many masks and other personal protective equipment (PPE). So far, we have donated masks and kits to Japan, Korea, Iran, Italy, Spain, the United States, and Africa. We hope to continue to promptly deliver these epidemic prevention materials to those in need and offer our sincere thanks to all countries who have helped us in our efforts so far.</p>
     </div>
   </section>
 
