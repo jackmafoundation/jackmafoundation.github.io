@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The First Round of Virus Detection Kits are ready to Depart for Africa
+title:  The first round of virus detection kits are ready to depart for Africa
 date:   2020-03-13 14:05:17
 cover: 
 permalink: /blog/covid-19-africa-supplies-ready/
