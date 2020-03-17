@@ -40,72 +40,6 @@ permalink: /program/covid-19/supplies
     <div class="section-heading"><h2>Donation Details</h2></div>
     <div class="section-body container aids">
 
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="headingOne">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <div class="country-name">Japan</div>
-                <div class="state">DONE</div>
-              </a>
-            </h4>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-            <div class="panel-body">
-              <div class="suppl">
-                <div>
-                  <span>Goods</span>
-                  <span>Face Mask 300,000 Pieces</span>
-                </div>
-                <div>
-                  <span>Progress</span>
-                  <span>Accepted</span>
-                </div>
-                <div>
-                  <span>Recepient</span>
-                  <span>ALOGJAPAN CO.,LTD</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="headingTwo">
-            <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </a>
-            </h4>
-          </div>
-          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div class="panel-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="headingThree">
-            <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
-              </a>
-            </h4>
-          </div>
-          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-            <div class="panel-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
       <div class="aid">
         <div class="country">Japan</div>
         <table>
@@ -114,27 +48,21 @@ permalink: /program/covid-19/supplies
               <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
               <td style="text-align: right;">300,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
+              <td style="text-align: right;">Arrived</td>
+              <td style="text-align: right;">ALOGJAPAN CO.,LTD</td>
             </tr>
             <tr>
               <td>Face Mask</td>
               <td style="text-align: right;">1,000,000</td>
               <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">Nippon Global Medical Organization</td>
             </tr>
           </tbody>
         </table>
@@ -147,7 +75,7 @@ permalink: /program/covid-19/supplies
               <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
           </thead>
           <tbody>
@@ -155,121 +83,67 @@ permalink: /program/covid-19/supplies
               <td>Face Mask</td>
               <td style="text-align: right;">1,000,000</td>
               <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">Red Cross</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="aid">
-        <div class="country">Iran</div>
+        <div class="country">Islamic Republic of Iran</div>
         <table>
           <thead>
             <tr>
               <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
               <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
+              <td style="text-align: right;">Accepted</td>
+              <td style="text-align: right;">Ministry of Foreign Affairs(Iran)</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
               <td style="text-align: right;">100,000</td>
               <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
+              <td style="text-align: right;">Ministry of Foreign Affairs(Iran)</td>
             </tr>
             <tr>
               <td>Nucleic Acid Isolation or Purification Reagent</td>
               <td style="text-align: right;">30,000</td>
               <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation</td>
+              <td style="text-align: right;">Ministry of Foreign Affairs(Iran)</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="aid">
-        <div class="country">Italy</div>
+        <div class="country">Europe</div>
         <table>
           <thead>
             <tr>
               <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">500,000 In Transit, 500,000 Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">2,000,000</td>
+              <td style="text-align: right;">Initial and Second Shipment [Accepted]The Rest [In Transit]</td>
+              <td style="text-align: right;">Italian Red Cross, Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">100,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Spain</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right;">500,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right;">50,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Belgium</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right;">500,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right;">50,000</td>
-              <td style="text-align: right;">Stocking Up</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">200,000</td>
+              <td style="text-align: right;">Initial and Second Shipment [Accepted]The Rest [In Transit]</td>
+              <td style="text-align: right;">Sciensano(Belgian institute for health)</td>
             </tr>
           </tbody>
         </table>
@@ -282,34 +156,34 @@ permalink: /program/covid-19/supplies
               <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
               <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">Accepted</td>
+              <td style="text-align: right;">Strategic National Stockpile U.S. Department of Health and Human Services</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
               <td style="text-align: right;">500,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">300,000 Detection Kits [In Transit]，The Rest [Arrived]</td>
+              <td style="text-align: right;">Strategic National Stockpile U.S. Department of Health and Human Services</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="aid">
-        <div class="country">Republika y'u Rwanda</div>
+        <div class="country">Republic of Rwanda</div>
         <table>
           <thead>
             <tr>
               <th class="column-3">Goods</th>
               <th style="text-align: right;">QTY(Pieces)</th>
               <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Donors</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
           </thead>
           <tbody>
@@ -317,26 +191,66 @@ permalink: /program/covid-19/supplies
               <td>Detection Kit</td>
               <td style="text-align: right;">30,000</td>
               <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">Rwanda Biomedical Centre </td>
             </tr>
             <tr>
               <td>Nucleic Acid Isolation or Purification Reagent</td>
               <td style="text-align: right;">30,000</td>
               <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">Rwanda Biomedical Centre </td>
             </tr>
             <tr>
               <td>NAT</td>
               <td style="text-align: right;">30,000</td>
               <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Jack Ma Foundation, Alibaba Foundation</td>
+              <td style="text-align: right;">Rwanda Biomedical Centre </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="aid">
+        <div class="country">Africa</div>
+        <table>
+          <thead>
+            <tr>
+              <th class="column-3">Goods</th>
+              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">Progress</th>
+              <th class="column-3" style="text-align: right;">Recepient</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">6,000,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Recepient to be determined</td>
+            </tr>
+            <tr>
+              <td>Detection Kit</td>
+              <td style="text-align: right;">1,100,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Recepient to be determined</td>
+            </tr>
+            <tr>
+              <td>Medical use Protective Suit</td>
+              <td style="text-align: right;">60,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Recepient to be determined</td>
+            </tr>
+            <tr>
+              <td>Medical use Protective Face Shield</td>
+              <td style="text-align: right;">60,000</td>
+              <td style="text-align: right;">In Transit</td>
+              <td style="text-align: right;">Recepient to be determined</td>
             </tr>
           </tbody>
         </table>
       </div>
       <p>Note：</p>
       <p>Detection Kit：Detection Kit for 2019 Novel Coronavirus(COVID-19)RNA(PCR-Fluorescence Probing)</p>
-      <p>NAT：Improviral Nat Medium(NAT)</p>
+      <p>Nucleic Acid Isolation or Purification Reagent: Used for steps of extraction, enrichment, purification,etc.of nucleic acid. Its processed product is used for clinical in vitro detection.</p>
+      <p>NAT：is intended for the collection and preservation of clinical specimens containing viruses or other pathogens.</p>
     </div>
   </section>
 
