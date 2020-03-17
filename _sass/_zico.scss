@@ -530,6 +530,8 @@ img {
             margin-left: -22px;
             h2 {
                 color: $brandColor;
+                text-transform: uppercase;
+                font-weight: 800;
                 &::before {
                     content: "/ ";
                     color: $brandColor;
@@ -1614,7 +1616,7 @@ ul.post-list {
 .sec {
     .sectitle {
         text-align: center;
-        margin-bottom: 55px;
+        margin-bottom: 40px;
         font-family: AlibabaSans;
         font-weight: 800;
     }   
