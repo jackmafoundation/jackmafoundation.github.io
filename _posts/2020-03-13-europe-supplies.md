@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The first Round of Epidemic Prevention Supplies will be Donated to Countries with Severe Outbreak such as Italy and Spain
+title:  Facing a Severe Outbreak, Italy and Spain Receive First Round of Donated Supplies
 date:   2020-03-11 14:05:17
 cover: https://img.mayun.xin/upload/2020031615/06aace1e71e78d673683ad6f49ebf025.JPG
 permalink: /blog/covid-19-europe-supplies/

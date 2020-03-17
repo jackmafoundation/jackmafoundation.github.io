@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  1 Million Masks have been Delivered to Japan
+title:  Japan receives 1 million masks
 date:   2020-03-2 14:05:17
 cover: https://img.mayun.xin/upload/2020031515/6f0365e1895a12420be99edf568c83c3.png
 permalink: /blog/covid-19-japan-supplies/

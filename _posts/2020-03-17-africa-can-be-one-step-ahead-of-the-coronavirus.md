@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Africa can be one step ahead of the coronavirus. To each of the 54 African countries, we will donate 20,000 test kits, 100,000 masks and 1,000 medical use protective suits and face shields. 
+title:  Jack Ma Foundation wants Africa to be one step ahead of the coronavirus
 date:   2020-03-16 19:05:17
 cover:  https://img.mayun.xin/upload/2020031701/3c2567407bb82f0db11311d235a227b7.jpg
 permalink: /blog/africa-can-be-one-step-ahead-of-the-coronavirus/
