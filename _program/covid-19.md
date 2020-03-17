@@ -39,6 +39,10 @@ permalink: /program/covid-19/fund
 
 <div class="program-panel active research">
 
+  <div class="container" style="margin-bottom: 30px;">
+    <img src="https://img.mayun.xin/upload/2020031723/99776bb3a859515f196cf0f1e8a890fb.jpg">
+  </div>
+
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
