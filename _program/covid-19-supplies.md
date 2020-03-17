@@ -275,7 +275,7 @@ permalink: /program/covid-19/supplies
 
 
   <section class="even">
-    <div class="section-heading"><h2>Latest News</h2></div>
+    <div class="section-heading"><h2>Related News</h2></div>
     <div class="section-body container">
       <div class="row">
       {% assign counter=0 %}
