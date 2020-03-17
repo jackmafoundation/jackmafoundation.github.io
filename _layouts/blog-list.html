@@ -9,7 +9,7 @@ layout: default
 	{% for post in site.posts %}
 		<div class="col-md-4">
 			<a class="news-card" href="{{ post.url }}" >
-				<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_400/');"></div>
+				<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_600/');"></div>
 				<div class="content">
 				<div class="title">{{ post.title }}</div>
 				<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
