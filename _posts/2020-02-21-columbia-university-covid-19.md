@@ -15,7 +15,6 @@ tags: [COVID-19-Fund]
 ![](https://img.mayun.xin/upload/2020031516/8301f3611c34b3815991706b29223962.jpeg)
 *▲David Ho*
 
-
 Earlier in February 2020, the Jack Ma Foundation announced a donation of $14.28 million for supporting R&D on drugs and vaccine for the novel coronavirus. As part of this donation, the Foundation is also providing an award to Columbia University.
 
 According to the Collaboration Agreement, Columbia University will undertake R&D around drugs and antibodies for the novel coronavirus. David Ho - the chief director –will be the head of the project and shall be responsible for providing leadership and guidance, goal setting, research and implementation and result tracking for relevant projects taking place under the cooperation framework. The Jack Ma Foundation will provide financial support of over $2.15 million for relevant research.
