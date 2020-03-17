@@ -342,13 +342,13 @@ permalink: /program/covid-19/supplies
 
         <h3 id="toc_5">2nd March</h3>
 
-        <p>The Jack Ma Foundation and the Alibaba Foundation have announced this afternoon to donate 1 million masks to Japan for epidemic prevention measures against the new coronavirus. Soon after the announcement, Jack Ma updated his personal Weibo, and sent his gratitude for Mr. Nikai Toshihiro, who had raised and donated medical goods for China earlier. Mr. Nikai Toshihiro replied Jack in the first instance also with gratitude, saying: “across a mountain, we stand together in storms” and reflecting the friendship between the people of China and Japan.</p>
+        <p>The Jack Ma Foundation and the Alibaba Foundation have announced this afternoon to donate 1 million masks to Japan for epidemic prevention measures against the novel coronavirus. Soon after the announcement, Jack Ma updated his personal Weibo, and sent his gratitude for Mr. Nikai Toshihiro, who had raised and donated medical goods for China earlier. Mr. Nikai Toshihiro replied Jack in the first instance also with gratitude, saying: “across a mountain, we stand together in storms” and reflecting the friendship between the people of China and Japan.</p>
 
         <h3 id="toc_6">2nd March</h3>
 
         <p>Outbound! 1 million masks are being delivered to Japan today, with the hope to help those in need! This reflects not only the kindness of Alibaba but also of many people in China. We hope the situation will get better in Japan and China!</p>
 
-        <p>20 days ago, Japan also showed us great support. Japan gathered 125,000 protective suits from across Japan for delivery to cities in Hubei Province: Wuhan, Huanggang, Yichang, E’zhou; in Zhejiang Province: Hangzhou, Wenzhou, Ningbo; in Henan Province: Zhengzhou, Nanyang, Xinyang; Dalian in Liaoning Province, and Sanya in Hainan Province, etc. All those donations were extremely timely for our urgent needs in the fight against the new coronavirus epidemic. We are so grateful, touched, and appreciate all the generosity! Now we join hands to help each other and take care of one another.</p>
+        <p>20 days ago, Japan also showed us great support. Japan gathered 125,000 protective suits from across Japan for delivery to cities in Hubei Province: Wuhan, Huanggang, Yichang, E’zhou; in Zhejiang Province: Hangzhou, Wenzhou, Ningbo; in Henan Province: Zhengzhou, Nanyang, Xinyang; Dalian in Liaoning Province, and Sanya in Hainan Province, etc. All those donations were extremely timely for our urgent needs in the fight against the novel coronavirus epidemic. We are so grateful, touched, and appreciate all the generosity! Now we join hands to help each other and take care of one another.</p>
 
         <p>Across a mountain, we stand together in storms.</p>
 

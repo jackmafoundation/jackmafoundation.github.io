@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Through a donation of 500,000 testing kits and 1 million masks, we join hands with Americans in these difficult times.
+title:  Through a donation of 500,000 testing kits and 1 million masks, we join hands with Americans in these difficult times
 date:   2020-03-13 14:05:17
 cover: https://img.mayun.xin/upload/2020031615/396fef7c8713940cda1ff100f901dbde.jpg
 permalink: /blog/covid-19-usa-supplies/

@@ -7,7 +7,7 @@ permalink: /blog/donation-100-million-covid-19/
 tags: [COVID-19-Fund]
 ---
 
-> Our united will to fight against the epidemic situation of new coronary virus pneumonia is stronger than a fortress.
+> Our united will to fight against the epidemic situation of novel coronavirus pneumonia is stronger than a fortress.
 
 The epidemic of COVID-19 is touching people's hearts. In the afternoon, we announced that we would donate $14.28 million to support the research and development of the vaccine for COVID-19.
 
