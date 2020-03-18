@@ -83,7 +83,7 @@ permalink: /program/covid-19/supplies
               <td>Face Mask</td>
               <td style="text-align: right;">1,000,000</td>
               <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Red Cross</td>
+              <td style="text-align: right;">Korean Red Cross</td>
             </tr>
           </tbody>
         </table>
