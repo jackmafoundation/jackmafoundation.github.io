@@ -24,7 +24,7 @@ Under this collaboration, Columbia University has established a research team co
 ![](https://img.mayun.xin/upload/2020031516/c4cbb402578325578ebe6d98b6d7cb1c.jpeg)
 *▲News on the Columbia University website*
 
-David Ho holds numerous honors, such as member of the US National Academy of Medicine, the American Academy of Arts and Sciences, and the United States National Academy of Sciences, and is a foreign member of the Chinese Academy of Engineering. He is among the earliest scientists to discover that HIV/AIDS is caused by virus infection. His ‘Cocktail Therapy’ is able to gain unprecedented control over the HIV virus inside the human body. In addition, his his team has made many significant breakthroughs in the research of HIV vaccines and drugs.
+David Ho holds numerous honors, such as member of the US National Academy of Medicine, the American Academy of Arts and Sciences, and the United States National Academy of Sciences, and is a foreign member of the Chinese Academy of Engineering. He is among the earliest scientists to discover that HIV/AIDS is caused by virus infection. His ‘Cocktail Therapy’ is able to gain unprecedented control over the HIV virus inside the human body. In addition, his team has made many significant breakthroughs in the research of HIV vaccines and drugs.
 
 During the SARS epidemic in 2003， David Ho participated extensively in the response by serving as an expert advisor to Beijing, Hong Kong and Taiwan. As a world-renowned Chinese scientist, he felt a personal sense of responsibility and urgency, and unreservedly decided to pause his work on AIDS to fully devote efforts towards the fight against the SARS.
 
