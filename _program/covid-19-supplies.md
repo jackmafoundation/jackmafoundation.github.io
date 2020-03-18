@@ -252,6 +252,7 @@ permalink: /program/covid-19/supplies
       <p>Nucleic Acid Isolation or Purification Reagent: Used for steps of extraction, enrichment, purification,etc.of nucleic acid. Its processed product is used for clinical in vitro detection.</p>
       <p>NAT：is intended for the collection and preservation of clinical specimens containing viruses or other pathogens.</p>
     </div>
+    </div>
   </section>
 
 
