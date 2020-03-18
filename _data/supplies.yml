@@ -30,14 +30,10 @@
       recepient: Ministry of Foreign Affairs(Iran)
 - country: Europe
   supplies:
-    - goods: Face Mask
-      qty: "2,000,000"
-      progress: Initial and Second Shipment [Accepted], The Rest [In Transit]
-      recepient: Italian Red Cross, Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain, Sciensano(Belgian institute for health)
-    - goods: Detection Kit
-      qty: "200,000"
-      progress: Initial and Second Shipment [Accepted], The Rest [In Transit]	
-      recepient: Italian Red Cross, Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain, Sciensano(Belgian institute for health)
+    - goods: Face Mask * 3,500,000<br/>Detection	Kit * 200,000
+      qty: 
+      progress: Arrived
+      recepient: Italian Red Cross, Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain, Sciensano(Belgian institute for health), French Public Health Agency, Department of Defense of Slovenia
 - country: The United States
   supplies:
     - goods: Face Mask
