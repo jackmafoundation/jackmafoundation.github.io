@@ -39,41 +39,42 @@ permalink: /program/covid-19/supplies
   <section class="odd">
     <div class="section-heading"><h2>Donation Details</h2></div>
     <div class="section-body container aids">
-
       
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel-group panel-supplies-group" id="accordion" role="tablist" aria-multiselectable="true">
         {% for item in site.data.supplies %}
         <div class="panel panel-default panel-country">
-            <div class="panel-heading" role="tab" id="headingOne">
+            <div class="panel-heading" role="tab" id="heading-{{ forloop.index }}">
                 <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <div class="country-name">{{ item.country }}</div>
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ forloop.index }}"  aria-controls="collapse-{{ forloop.index }}">
+                    <div class="country-name"><i class="fa fa-caret-down toggle-indicator-icon" aria-hidden="true"></i>{{ item.country }}</div>
                     <!-- <div class="state">DONE</div> -->
                     </a>
                 </h4>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div id="collapse-{{ forloop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{ forloop.index }}">
                 <div class="panel-body">
                     {% for supply in item.supplies %}
-                    <div class="supply-item">
-                      <div class="line">
-                          <span class="label">Goods</span>
-                          <span class="value">{{ supply.goods }}</span>
+                      <div class="supply-item">
+                        <div class="line">
+                            <span class="label">Goods</span>
+                            <span class="value">{{ supply.goods }}</span>
+                        </div>
+                        <div class="line">
+                            <span class="label">QTY(Piece)</span>
+                            <span class="value">{{ supply.qty }}</span>
+                        </div>
+                        <div class="line">
+                            <span class="label">Progress</span>
+                            <span class="value">{{ supply.progress }}</span>
+                        </div>
+                        <div class="line">
+                            <span class="label">Recepient</span>
+                            <span class="value">{{ supply.recepient }}</span>
+                        </div>
                       </div>
-                      <div class="line">
-                          <span class="label">QTY(Piece)</span>
-                          <span class="value">{{ supply.qty }}</span>
-                      </div>
-                      <div class="line">
-                          <span class="label">Progress</span>
-                          <span class="value">{{ supply.progress }}</span>
-                      </div>
-                      <div class="line">
-                          <span class="label">Recepient</span>
-                          <span class="value">{{ supply.recepient }}</span>
-                      </div>
-                    </div>
-                    <hr/>
+                      {% if forloop.index!=forloop.length %}
+                        <hr/>
+                      {% endif %} 
                     {% endfor %} 
                 </div>
             </div>

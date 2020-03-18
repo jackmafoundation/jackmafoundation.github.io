@@ -1288,7 +1288,12 @@ img {
         }
 
         .aids {
+            .panel-group {
+                display: block;
+                margin-bottom: 30px;
+            }
             .aid {
+                display: none;
                 margin-bottom: 30px;
                 .country {
                     font-size: 16px;
@@ -1858,22 +1863,31 @@ article {
 
 
 .aids {
-
     .panel-group {
-        padding: 2px;
         border: none;
+        margin: 0 -15px;
+        display: none;
     }
-
     .panel-country {
-        margin-bottom: 20px;
+        margin: 2px 0;
         border: none;
         box-shadow: none;
         -webkit-box-shadow: none;
 
         .panel-heading {
             padding: 15px;
-            background: #ecf5ff;
+            background: #f5f5f5;
             border: none;
+
+            .toggle-indicator-icon {
+                margin-right: 15px;
+            }
+
+            .collapsed {
+                .toggle-indicator-icon {
+                    transform: rotate(-90deg);
+                }
+            }
         }
 
         .panel-collapse {
@@ -1886,18 +1900,22 @@ article {
             padding: 10px 0;
             .line {
                 display: block;
+                overflow: hidden;
+                margin: 5px 0;
                 .label {
                     color: #333;
-                    font-size: 16px;
+                    font-size: 14px;
                     font-weight: normal;
-                    width: 120px;
-                    display: inline-block;
+                    width: 100px;
                     text-align: left;
                     color: #666;
                     font-style: italic;
+                    float: left;
                 }
                 .value {
-                    
+                    font-size: 14px;
+                    margin-left: 100px;
+                    display: block;
                 }
             }
         }
