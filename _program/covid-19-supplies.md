@@ -143,7 +143,7 @@ permalink: /program/covid-19/supplies
               <td>Face Mask</td>
               <td style="text-align: right;">2,000,000</td>
               <td style="text-align: right;">Initial and Second Shipment [Accepted]The Rest [In Transit]</td>
-              <td style="text-align: right;">Italian Red Cross, Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain</td>
+              <td style="text-align: right;">Italian Red Cross, <br/>Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
