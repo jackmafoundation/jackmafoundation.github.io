@@ -227,7 +227,7 @@ permalink: /program/covid-19/supplies
           </thead>
           <tbody>
             <tr>
-              <td>Detection Kit</td>
+              <td>Face Mask</td>
               <td style="text-align: right;">6,000,000</td>
               <td style="text-align: right;">In Transit</td>
               <td style="text-align: right;">Recepient to be determined</td>
