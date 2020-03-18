@@ -39,7 +39,8 @@ permalink: /program/covid-19/fund
 
 <div class="program-panel active research">
 
-  <a class="container" style="margin-bottom: 30px;" href="https://covid-19.alibabacloud.com/">
+
+  <a class="container" style="margin-bottom: 30px; display: block" href="https://covid-19.alibabacloud.com/">
     <img src="https://img.mayun.xin/upload/2020031723/99776bb3a859515f196cf0f1e8a890fb.jpg">
   </a>
 
