@@ -1,0 +1,82 @@
+- country: Japan
+  supplies:
+    - goods: Face Mask
+      qty: 300,000
+      progress: Arrived
+      recepient: ALOGJAPAN CO.,LTD
+    - goods: Face Mask
+      qty: 1,000,000
+      progress: Accepted
+      recepient: Nippon Global Medical Organization
+- country: Republic of Korea
+  supplies:
+    - goods: Face Mask
+      qty: 1,000,000
+      progress: Accepted
+      recepient: Korean Red Cross
+- country: Islamic Republic of Iran
+  supplies:
+    - goods: Face Mask
+      qty: 1,000,000
+      progress: Accepted
+      recepient: Ministry of Foreign Affairs(Iran)
+    - goods: Detection Kit
+      qty: 100,000
+      progress: In Transit	
+      recepient: Ministry of Foreign Affairs(Iran)
+    - goods: Nucleic Acid Isolation or Purification Reagent
+      qty: 30,000
+      progress: In Transit	
+      recepient: Ministry of Foreign Affairs(Iran)
+- country: Europe
+  supplies:
+    - goods: Face Mask
+      qty: 2,000,000
+      progress: Initial and Second Shipment [Accepted], The Rest [In Transit]
+      recepient: Italian Red Cross, Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain
+    - goods: Detection Kit
+      qty: 200,000
+      progress: Initial and Second Shipment [Accepted], The Rest [In Transit]	
+      recepient: Sciensano(Belgian institute for health)
+- country: The United States
+  supplies:
+    - goods: Face Mask
+      qty: 1,000,000
+      progress: Accepted
+      recepient: Strategic National Stockpile U.S. Department of Health and Human Services
+    - goods: Detection Kit
+      qty: 500,000
+      progress: 300,000 Detection Kits [In Transit], The Rest [Arrived]
+      recepient: Strategic National Stockpile U.S. Department of Health and Human Services
+- country: Republic of Rwanda
+  supplies:
+    - goods: Detection Kit
+      qty: 30,000
+      progress: In Transit
+      recepient: Rwanda Biomedical Centre
+    - goods: Nucleic Acid Isolation or Purification Reagent
+      qty: 30,000
+      progress: In Transit
+      recepient: Rwanda Biomedical Centre
+    - goods: NAT
+      qty: 30,000
+      progress: In Transit
+      recepient: Rwanda Biomedical Centre
+- country: Africa
+  supplies:
+    - goods: Face Mask
+      qty: 6,000,000
+      progress: In Transit
+      recepient: Recepient to be determined
+    - goods: Detection Kit
+      qty: 1,100,000
+      progress: In Transit
+      recepient: Recepient to be determined
+    - goods: Medical use Protective Suit
+      qty: 60,000
+      progress: In Transit
+      recepient: Recepient to be determined
+    - goods: Medical use Protective Face Shield
+      qty: 60,000
+      progress: In Transit
+      recepient: Recepient to be determined
