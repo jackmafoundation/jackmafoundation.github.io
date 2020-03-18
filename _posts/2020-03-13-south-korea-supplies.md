@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  1 Million Masks Delivered to South Korea
+title:  1 million masks delivered to South Korea
 date:   2020-03-5 14:05:17
 cover: https://img.mayun.xin/upload/2020031615/7842dd62489bce8cba32730654d369f2.jpg
 permalink: /blog/covid-19-south-korea-supplies/
