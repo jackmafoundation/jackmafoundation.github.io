@@ -1859,11 +1859,33 @@ article {
 
 .aids {
 
+    .panel-group {
+        padding: 2px;
+        border: none;
+    }
+
     .panel-country {
+        margin-bottom: 20px;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+
+        .panel-heading {
+            padding: 15px;
+            background: #ecf5ff;
+            border: none;
+        }
+
+        .panel-collapse {
+            .panel-body {
+                border: none;
+            }
+        }
 
         .supply-item {
             padding: 10px 0;
             .line {
+                display: block;
                 .label {
                     color: #333;
                     font-size: 16px;

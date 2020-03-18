@@ -1,0 +1,24 @@
+- country: Japan
+  supplies:
+    - goods: Face Mask
+      qty: 300,000
+      progress: Accepted
+      recepient: ALOGJAPAN CO.,LTD
+    - goods: Face Mask
+      qty: 300,000
+      progress: Accepted
+      recepient: ALOGJAPAN CO.,LTD
+- country: Japan2
+  supplies:
+    - goods: Face Mask
+      qty: 300,000
+      progress: Accepted
+      recepient: ALOGJAPAN CO.,LTD
+    - goods: Face Mask2
+      qty: 300,000
+      progress: Accepted
+      recepient: ALOGJAPAN CO.,LTD
+    - goods: Face Mask2
+      qty: 300,000
+      progress: Accepted
+      recepient: ALOGJAPAN CO.,LTD
