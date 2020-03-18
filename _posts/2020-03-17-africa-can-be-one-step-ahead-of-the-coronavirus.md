@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Jack Ma Foundation wants Africa to be one step ahead of the coronavirus
-date:   2020-03-16 19:05:17
 cover:  https://img.mayun.xin/upload/2020031701/3c2567407bb82f0db11311d235a227b7.jpg
 permalink: /blog/africa-can-be-one-step-ahead-of-the-coronavirus/
 tags: [COVID-19-Supplies]
