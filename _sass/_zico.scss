@@ -899,6 +899,7 @@ img {
         border-radius: 0;
         margin-top: 15px;
         width: 100%;
+        font-size: 14px;
 
         thead tr {
             height: 48px;
@@ -913,9 +914,9 @@ img {
         }
 
         th, td {
-            line-height: 2.2;
+            line-height: 1.6;
+            padding: 15px 20px;
             border: none;
-            padding: 8px 20px;
         }
     }
 
@@ -1034,8 +1035,11 @@ img {
                 width: 100%;
 
                 thead {
-                    .column-3 {
-                        width: 30%;
+                    .c1 {
+                        width: 150px;
+                    }
+                    .c2 {
+                        width: 300px;
                     }
                 }
             }

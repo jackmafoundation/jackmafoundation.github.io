@@ -89,24 +89,24 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">300,000</td>
-              <td style="text-align: right;">Arrived</td>
-              <td style="text-align: right;">ALOGJAPAN CO.,LTD</td>
+              <td style="text-align: right">300,000</td>
+              <td>Arrived</td>
+              <td>ALOGJAPAN CO.,LTD</td>
             </tr>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Nippon Global Medical Organization</td>
+              <td style="text-align: right">1,000,000</td>
+              <td>Accepted</td>
+              <td>Nippon Global Medical Organization</td>
             </tr>
           </tbody>
         </table>
@@ -116,18 +116,18 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Korean Red Cross</td>
+              <td style="text-align: right">1,000,000</td>
+              <td>Accepted</td>
+              <td>Korean Red Cross</td>
             </tr>
           </tbody>
         </table>
@@ -137,30 +137,28 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Ministry of Foreign Affairs(Iran)</td>
+              <td style="text-align: right">1,000,000</td>
+              <td>Accepted</td>
+              <td rowspan="3">Ministry of Foreign Affairs(Iran)</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">100,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Ministry of Foreign Affairs(Iran)</td>
+              <td style="text-align: right">100,000</td>
+              <td>In Transit</td>
             </tr>
             <tr>
               <td>Nucleic Acid Isolation or Purification Reagent</td>
-              <td style="text-align: right;">30,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Ministry of Foreign Affairs(Iran)</td>
+              <td style="text-align: right">30,000</td>
+              <td>In Transit</td>
             </tr>
           </tbody>
         </table>
@@ -170,22 +168,22 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">2,000,000</td>
-              <td style="text-align: right;" rowspan="2">Initial and Second Shipment [Accepted]<br/>The Rest [In Transit]</td>
-              <td style="text-align: right;" rowspan="2">Italian Red Cross, <br/>Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain, <br/>Sciensano(Belgian institute for health)</td>
+              <td style="text-align: right">2,000,000</td>
+              <td rowspan="2">Initial and Second Shipment [Accepted]<br/>The Rest [In Transit]</td>
+              <td rowspan="2">Italian Red Cross, <br/>Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain, <br/>Sciensano(Belgian institute for health)</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">200,000</td>
+              <td style="text-align: right">200,000</td>
             </tr>
           </tbody>
         </table>
@@ -195,24 +193,23 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">1,000,000</td>
-              <td style="text-align: right;">Accepted</td>
-              <td style="text-align: right;">Strategic National Stockpile U.S. Department of Health and Human Services</td>
+              <td style="text-align: right">1,000,000</td>
+              <td>Accepted</td>
+              <td rowspan="2">Strategic National Stockpile U.S. Department of Health and Human Services</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">500,000</td>
-              <td style="text-align: right;">300,000 Detection Kits [In Transit]，<br/>The Rest [Arrived]</td>
-              <td style="text-align: right;">Strategic National Stockpile U.S. Department of Health and Human Services</td>
+              <td style="text-align: right">500,000</td>
+              <td>300,000 Detection Kits [In Transit]，<br/>The Rest [Arrived]</td>
             </tr>
           </tbody>
         </table>
@@ -222,30 +219,28 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">30,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Rwanda Biomedical Centre </td>
+              <td style="text-align: right">30,000</td>
+              <td>In Transit</td>
+              <td rowspan="3">Rwanda Biomedical Centre </td>
             </tr>
             <tr>
               <td>Nucleic Acid Isolation or Purification Reagent</td>
-              <td style="text-align: right;">30,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Rwanda Biomedical Centre </td>
+              <td style="text-align: right">30,000</td>
+              <td>In Transit</td>
             </tr>
             <tr>
               <td>NAT</td>
-              <td style="text-align: right;">30,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Rwanda Biomedical Centre </td>
+              <td style="text-align: right">30,000</td>
+              <td>In Transit</td>
             </tr>
           </tbody>
         </table>
@@ -257,36 +252,33 @@ permalink: /program/covid-19/supplies
         <table>
           <thead>
             <tr>
-              <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Piece)</th>
-              <th style="text-align: right;">Progress</th>
-              <th class="column-3" style="text-align: right;">Recepient</th>
+              <th class="c2">Goods</th>
+              <th class="c1" style="text-align: right">QTY(Piece)</th>
+              <th class="c2">Progress</th>
+              <th>Recepient</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Face Mask</td>
-              <td style="text-align: right;">6,000,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Recepient to be determined</td>
+              <td style="text-align: right">6,000,000</td>
+              <td>In Transit</td>
+              <td rowspan="4">Recepient to be determined</td>
             </tr>
             <tr>
               <td>Detection Kit</td>
-              <td style="text-align: right;">1,100,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Recepient to be determined</td>
+              <td style="text-align: right">1,100,000</td>
+              <td>In Transit</td>
             </tr>
             <tr>
               <td>Medical use Protective Suit</td>
-              <td style="text-align: right;">60,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Recepient to be determined</td>
+              <td style="text-align: right">60,000</td>
+              <td>In Transit</td>
             </tr>
             <tr>
               <td>Medical use Protective Face Shield</td>
-              <td style="text-align: right;">60,000</td>
-              <td style="text-align: right;">In Transit</td>
-              <td style="text-align: right;">Recepient to be determined</td>
+              <td style="text-align: right">60,000</td>
+              <td>In Transit</td>
             </tr>
           </tbody>
         </table>
