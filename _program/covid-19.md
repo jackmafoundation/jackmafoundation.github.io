@@ -54,13 +54,15 @@ permalink: /program/covid-19/fund
 <p>&quot;We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma Foundation will do its best to provide more help for the development and accumulation of medical science.&quot; Jack Ma, Founder of JMF said.</p>
 
 <p>Jack Ma called on all researchers and research institutions to work together to leverage more resources, and believe in the ability of people around the world to overcome the disease. In addition, Alibaba Group announced that the computing power needed for developing vaccines and new drugs will be provided to research institutions free of charge.<br/>
-In the future, Alibaba Cloud also plans to discuss cooperation with various partners to develop big-data enabled smart national early warning system for respiratory diseases, cloud-based research platform on infectious respiratory diseases, and information-sharing system for research and best practice on respiratory disease treatment, in an effort to improve early warning and information sharing.</p>
+</p>
+
+<p>In the future, Alibaba Cloud also plans to discuss cooperation with various partners to develop big-data enabled smart national early warning system for respiratory diseases, cloud-based research platform on infectious respiratory diseases, and information-sharing system for research and best practice on respiratory disease treatment, in an effort to improve early warning and information sharing.</p>
     </div>
   </section>
 
 
   <section class="odd">
-    <div class="section-heading"><h2>Fund Progress</h2></div>
+    <div class="section-heading"><h2>Progress</h2></div>
     <div class="section-body container">
       <div class="events">
         <a class="event">
@@ -111,7 +113,7 @@ In the future, Alibaba Cloud also plans to discuss cooperation with various part
             <td style="text-align: right;">RMB 20 million (USD 2.85 million)</td>
           </tr>
           <tr>
-            <td>Guangdong Zhong Nanshan Medical Foundation, Guangzhou Respiratory Health Research Institute</td>
+            <td>Guangdong Zhong Nanshan Medical Foundation, Guangzhou Institute of Respiratory Health</td>
             <td style="text-align: right;">RMB 6 million (USD 0.86 million)</td>
           </tr>
           <tr>
@@ -119,7 +121,7 @@ In the future, Alibaba Cloud also plans to discuss cooperation with various part
             <td style="text-align: right;">USD 2.15 million</td>
           </tr>
           <tr>
-            <td>Peter Doherty Institute of Infection and Immunization, Australia</td>
+            <td>Peter Doherty Institute for Infection and Immunity, Australia</td>
             <td style="text-align: right;">AUD 3.20 million (USD 2.15 million)</td>
           </tr>
           <tr style="font-weight: bold;">
