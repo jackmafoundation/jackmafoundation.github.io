@@ -1857,24 +1857,35 @@ article {
 
 
 
-// .aids {
+.aids {
 
-//     .panel-country {
+    .panel-country {
 
-//         .supply-item {
-//             .line {
-//                 .label {
-//                     color: #333;
-//                     font-size: 16px;
-//                 }
-//                 .value {
+        .supply-item {
+            padding: 10px 0;
+            .line {
+                .label {
+                    color: #333;
+                    font-size: 16px;
+                    font-weight: normal;
+                    width: 120px;
+                    display: inline-block;
+                    text-align: left;
+                    color: #666;
+                    font-style: italic;
+                }
+                .value {
+                    
+                }
+            }
+        }
 
-//                 }
-//             }
-//         }
-//     }
+        hr {
+            margin: 10px 5px;
+        }
+    }
 
-// }
+}
 
 
 
