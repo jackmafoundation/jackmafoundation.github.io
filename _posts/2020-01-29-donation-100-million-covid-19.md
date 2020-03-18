@@ -19,4 +19,4 @@ At the same time, Alibaba Group announced that it will also provide all the AI c
 
 At this moment, we appeal to and support the cooperation of all researchers and research institutions. Let us come together, work together, pool human and material resources together to give confidence to the Chinese people and to all humans so we overcome diseases.
 
-Stay strong, Wuhan!  Stay strong, China!  Stay Strong, everyone!
+Stay strong Wuhan! Stay strong China!  Stay Strong everyone!
