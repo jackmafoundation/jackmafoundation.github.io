@@ -46,15 +46,14 @@ permalink: /program/covid-19/fund
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of RMB 100 million (USD 14.26 million) to support the R&D of COVID-19 treatment drugs and vaccines.</p>
+      <p>On January 29th 2020, the Jack Ma Foundation (JMF) announced the donation of USD 14.28 million to support the R&D of COVID-19 drugs and vaccines.</p>
 
-<p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received RMB 20 million (USD 2.85 million) for the special R&D of vaccines within their professional research institutes. The remaining funds will be used to support the research and development of COVID-19 by leading research institutes and researchers at home and abroad.</p>
+<p>The Chinese Academy of Sciences and Chinese Academy of Engineering each received USD 2.86 million for vaccine research and development. The remaining fund will be used to support leading institutes and researchers home and abroad in COVID-19 research.</p>
 
-<p>"We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma Foundation will do its best to provide more help for the development and accumulation of medical science." Jack Ma, Founder of JMF said.</p>
+<p>&quot;We all know that although researchers have been working hard and sparing no effort to develop a vaccine, it will not be easy to get the vaccine from the research and trial stage to public use. While we hope that the epidemic will be completely controlled before the vaccine comes out, we also know that the fight between human beings and viruses is a long road – one which requires patience and experience, as well as more confidence and hope. The Jack Ma Foundation will do its best to provide more help for the development and accumulation of medical science.&quot; Jack Ma, Founder of JMF said.</p>
 
-<p>Jack Ma called on all scientific researchers and research institutions to work together to gather human and material resources and to give confidence to the Chinese people and all nationalities that the disease will be overcome. In addition, Alibaba group announced that it will open all the AI computing power needed for the development of virus vaccines and new drugs to public scientific research institutions for free.</p>
-
-<p>In the future, Alibaba Cloud Computing also plans to discuss relevant in-depth technical support cooperation with various protocol partners on the construction of: a big-data enabled national respiratory disease intelligent early warning system; a cloud-based research platform focused on infectious respiratory system diseases, and an open collaborative information-sharing system for respiratory disease treatment research and best-practices to improve the efficiency of disease early warning and information transmission.</p>
+<p>Jack Ma called on all researchers and research institutions to work together to leverage more resources, and believe in the ability of people around the world to overcome the disease. In addition, Alibaba Group announced that the computing power needed for developing vaccines and new drugs will be provided to research institutions free of charge.<br/>
+In the future, Alibaba Cloud also plans to discuss cooperation with various partners to develop big-data enabled smart national early warning system for respiratory diseases, cloud-based research platform on infectious respiratory diseases, and information-sharing system for research and best practice on respiratory disease treatment, in an effort to improve early warning and information sharing.</p>
     </div>
   </section>
 
@@ -64,28 +63,28 @@ permalink: /program/covid-19/fund
     <div class="section-body container">
       <div class="events">
         <a class="event">
-          <div class="event-date">Mar. 02</div>
-          <div class="event-name">Cooperation agreement signed with Peter Doherty Institute of Infection and Immunization, Australia.</div>
+          <div class="event-date">Mar 02</div>
+          <div class="event-name">Cooperation agreement signed with Peter Doherty Institute for Infection and Immunity, Australia.</div>
         </a>
         <a class="event">
-          <div class="event-date">Feb. 18</div>
+          <div class="event-date">Feb 18</div>
           <div class="event-name">Cooperation agreement signed between the Mailman School of Public Health at Columbia University and the Foundation.</div>
         </a>
         <a class="event">
-          <div class="event-date">Feb. 13</div>
-          <div class="event-name">4 party cooperation framework cooperation agreement signed between Guangdong Zhong Nanshan Medical Foundation, Guangzhou Respiratory Health Research Institute, Alibaba Cloud Computing and the Foundation.</div>
+          <div class="event-date">Feb 13</div>
+          <div class="event-name">Four-party cooperation framework agreement signed between Guangdong Zhong Nanshan Medical Foundation, Guangzhou Institute of Respiratory Health, Alibaba Cloud and the Foundation.</div>
         </a>
         <a class="event">
           <div class="event-date">Feb 11</div>
           <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Sciences.</div>
         </a>
         <a class="event">
-          <div class="event-date">Feb. 07</div>
+          <div class="event-date">Feb 07</div>
           <div class="event-name">Cooperation framework agreement signed with Chinese Academy of Engineering.</div>
         </a>
         <a class="event">
-          <div class="event-date">Jan. 29</div>
-          <div class="event-name">Novel coronavirus research and control fund project launched.</div>
+          <div class="event-date">Jan 29</div>
+          <div class="event-name">Fund on COVID-19 Research, Prevention and Treatment launched.</div>
         </a>
       </div>
     </div>
