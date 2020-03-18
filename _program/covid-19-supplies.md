@@ -214,7 +214,9 @@ permalink: /program/covid-19/supplies
           </tbody>
         </table>
 
-        <div class="aid">
+        
+      </div>
+      <div class="aid">
         <div class="country">Africa</div>
         <table>
           <thead>
@@ -257,7 +259,6 @@ permalink: /program/covid-19/supplies
       <p>Detection Kit：Detection Kit for 2019 Novel Coronavirus(COVID-19)RNA(PCR-Fluorescence Probing)</p>
       <p>Nucleic Acid Isolation or Purification Reagent: Used for steps of extraction, enrichment, purification,etc.of nucleic acid. Its processed product is used for clinical in vitro detection.</p>
       <p>NAT：is intended for the collection and preservation of clinical specimens containing viruses or other pathogens.</p>
-    </div>
     </div>
   </section>
 
