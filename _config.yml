@@ -1,33 +1,24 @@
 # Site settings
 title: Jack Ma Foundation
-description: Focus on entrepreneurship, education, women's leadership, medical and environmental protection
+description: "Founded by Alibaba founder Mr. Jack Ma on December 15, 2014, the Jack Ma Foundation (JMF) focuses on four areas: entrepreneurship, education, women’s leadership, medical support and environmental protection. The foundation actively works to create a trustworthy, participatory and sustainable non-profit organization."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.jackmafoundation.org.cn" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: foundation_ma
+github_username:  jackmafoundation
 permalink: /blog/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
-
 
 # 样式资源主地址
 qiniu: /
 # UGC资源地址
 qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
 
-home_startups:
-  - 卓越三维 
-  - 海导科技
-  - 慕声定制耳机
-  - 拓奇科技
-
 # 站点信息
-slogan: 致力于早期科技创业孵化
+slogan: ""
 qrcode: https://img.mayun.xin/upload/2020031417/8f47db56dd3861351d569e8b19d58dcb.png
 
 collections:
-  startup:
-    output: true
   program:
     output: true
