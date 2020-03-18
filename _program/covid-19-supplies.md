@@ -40,13 +40,19 @@ permalink: /program/covid-19/supplies
     <div class="section-heading"><h2>Donation Details</h2></div>
     <div class="section-body container aids">
 
+
+      
+
+
+
+
       <div class="aid">
         <div class="country">Japan</div>
         <table>
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
@@ -73,7 +79,7 @@ permalink: /program/covid-19/supplies
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
@@ -94,7 +100,7 @@ permalink: /program/covid-19/supplies
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
@@ -127,7 +133,7 @@ permalink: /program/covid-19/supplies
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
@@ -154,7 +160,7 @@ permalink: /program/covid-19/supplies
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
@@ -181,7 +187,7 @@ permalink: /program/covid-19/supplies
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
@@ -214,7 +220,7 @@ permalink: /program/covid-19/supplies
           <thead>
             <tr>
               <th class="column-3">Goods</th>
-              <th style="text-align: right;">QTY(Pieces)</th>
+              <th style="text-align: right;">QTY(Piece)</th>
               <th style="text-align: right;">Progress</th>
               <th class="column-3" style="text-align: right;">Recepient</th>
             </tr>
