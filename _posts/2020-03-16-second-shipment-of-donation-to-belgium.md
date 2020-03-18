@@ -7,11 +7,9 @@ permalink: /blog/covid-19-second-shipment-of-donation-to-belgium/
 tags: [COVID-19-Supplies]
 ---
 
-The second shipment of donations from Jack Ma Foundation and Alibaba Foundation for epidemic prevention in Europe has just arrived at the Liege Airport in Belgium, hours ahead of schedule.
+The second shipment of donations from Jack Ma Foundation and Alibaba Foundation for epidemic prevention in Europe has just arrived at the Liege Airport in Belgium, hours ahead of schedule. The supplies that have arrived so far will be forwarded immediately to Italy and Belgium. 
 
-The second shipment of donations from Jack Ma Foundation and Alibaba Foundation for epidemic prevention in Europe has just arrived at the Liege Airport in Belgium, hours ahead of schedule. The supplies arrived so far will be forwarded immediately to Italy and Belgium. 
-
-From now on, Cainiao Network will charter five cargo flights a week from Hangzhou to the Liege Airport, fully loaded with medical supplies. 
+From now on, Cainiao Network will charter five cargo flights per week from Hangzhou to the Liege Airport, fully loaded with medical supplies. 
 
 Drawing from our experience in the past two months, we have learned that time is critical to saving lives. Medical supplies are the most important in preventing the spread of the virus. Whenever we source a batch of supplies, we will race against time to deliver these resources. 
 

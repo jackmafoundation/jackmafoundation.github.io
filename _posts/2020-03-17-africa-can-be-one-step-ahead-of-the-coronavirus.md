@@ -16,8 +16,8 @@ To combat the potential surging demand for medical supplies and equipment in Afr
 
 In addition, we will immediately start working with medical institutions in Africa to provide online training material for COVID-19 clinical treatment.
 
-In total, 1.1 million testing kits, 6 million masks, and 60,000 medical use protective suits and face shields will be delivered to Addis Ababa, capital of Ethiopia. Prime Minister Abiy Ahmed Ali of Ethiopia has agreed to take the lead in managing the logistics and distribution of these supplies to the other African countries. I want to express a big “Thank You” to the Ethiopian government and Prime Minister Abiy.
+In total, 1.1 million testing kits, 6 million masks, and 60,000 medical use protective suits and face shields will be delivered to Addis Ababa, the capital of Ethiopia. Prime Minister Abiy Ahmed Ali of Ethiopia has agreed to take the lead in managing the logistics and distribution of these supplies to the other African countries. I want to express a big “Thank You” to the Ethiopian government and Prime Minister Abiy.
 
-This crisis is proving to be more difficult and longer lasting than any of us had expected. We must make every effort to get prepared. The past two months show us that if we take it very seriously and are proactive, we are more than capable of containing the virus. 
+This crisis is proving to be more difficult and longer-lasting than any of us had expected. We must make every effort to get prepared. The past two months have shown us that if we take it very seriously and are proactive, we are more than capable of containing the virus. 
 
 Now it is as if we were all living in the same forest on fire. As members of the global community, it would be irresponsible of us to sit on the fence, panic, ignore facts or fail to act. We need to take action now!
