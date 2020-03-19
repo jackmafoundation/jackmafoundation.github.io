@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Iran received 1 million masks
+title:  Iran receives 1 million masks
 date:   2020-03-6 14:05:17
 cover: https://img.mayun.xin/upload/2020031615/2da04d424eff5facfcfc87ddd573a3c3.JPG
 permalink: /blog/covid-19-iran-supplies/
