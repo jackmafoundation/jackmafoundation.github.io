@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JMF publishes handbook of top Chinese hospital's combat experience against COVID-19 for medical personnels worldwide
+title:  JMF supports publishing handbook of top Chinese hospital's combat experience against COVID-19 for healthcare providers wordwide
 date: 2020-03-18 10:04 +0800
 cover:  https://img.mayun.xin/upload/2020031806/3353f55ae2d8ae7489e5a0ededaec2be.png
 permalink: /blog/covid-handbook-released/
