@@ -39,11 +39,6 @@ permalink: /program/covid-19/fund
 
 <div class="program-panel active research">
 
-
-  <a class="container" style="margin-bottom: 30px; display: block" href="https://covid-19.alibabacloud.com/">
-    <img src="https://img.mayun.xin/upload/2020031723/99776bb3a859515f196cf0f1e8a890fb.jpg">
-  </a>
-
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
@@ -64,6 +59,11 @@ permalink: /program/covid-19/fund
   <section class="odd">
     <div class="section-heading"><h2>Progress</h2></div>
     <div class="section-body container">
+
+      <a class="container" style="margin-bottom: 30px; display: block; max-width: 1120px" href="https://covid-19.alibabacloud.com/">
+        <img src="https://img.mayun.xin/upload/2020031723/99776bb3a859515f196cf0f1e8a890fb.jpg">
+      </a>
+
       <div class="events">
         <a class="event">
           <div class="event-date">Mar 02</div>
