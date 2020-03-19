@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Jack Ma Foundation joins hands with Columbia University to advance R&D for the novel coronavirus
+title:  JMF joins hands with Columbia University to advance R&D of COVID-19
 date:   2020-02-21 14:05:17
 author: Admin
 cover: https://img.mayun.xin/upload/2020022409/5f3728dcb0c8a8522bb817f0fd2a7aed.png
