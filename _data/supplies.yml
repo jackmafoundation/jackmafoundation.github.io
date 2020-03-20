@@ -28,6 +28,24 @@
       qty: "30,000"
       progress: In Transit	
       recepient: Ministry of Foreign Affairs(Iran)
+- country: Malaysia, Republic of Indonesia, Republic of the Philippines, The Kingdom of Thailand
+  supplies:
+    - goods: Face Mask
+      qty: "2,000,000"
+      progress: In Preparation
+      recepient: Recepient to be determined
+    - goods: Detection Kit
+      qty: "150,000"
+      progress: In Preparation
+      recepient: Recepient to be determined
+    - goods: Medical use Protective Suit
+      qty: "20,000"
+      progress: In Preparation
+      recepient: Recepient to be determined
+    - goods: Medical use Protective Face Shield
+      qty: "20,000"
+      progress: In Preparation
+      recepient: Recepient to be determined
 - country: Europe
   supplies:
     - goods: Face Mask * 3,500,000<br/>Detection	Kit * 200,000

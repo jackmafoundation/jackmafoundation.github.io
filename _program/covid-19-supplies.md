@@ -39,7 +39,7 @@ permalink: /program/covid-19/supplies
   <section class="odd">
     <div class="section-heading"><h2>Donation Details</h2></div>
     <div class="section-body container aids">
-      
+
       <div class="panel-group panel-supplies-group" id="accordion" role="tablist" aria-multiselectable="true">
         {% for item in site.data.supplies %}
         <div class="panel panel-default panel-country">
@@ -84,8 +84,9 @@ permalink: /program/covid-19/supplies
 
 
 
+      {% for item in site.data.supplies %}
       <div class="aid">
-        <div class="country">Japan</div>
+        <div class="country">{{ item.country }}</div>
         <table>
           <thead>
             <tr>
@@ -96,193 +97,19 @@ permalink: /program/covid-19/supplies
             </tr>
           </thead>
           <tbody>
+            {% for supply in item.supplies %}
             <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">300,000</td>
-              <td>Arrived</td>
-              <td>ALOGJAPAN CO.,LTD</td>
+              <td>{{ supply.goods }}</td>
+              <td style="text-align: right">{{ supply.qty }}</td>
+              <td>{{ supply.progress }}</td>
+              <td>{{ supply.recepient }}</td>
             </tr>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">1,000,000</td>
-              <td>Accepted</td>
-              <td>Nippon Global Medical Organization</td>
-            </tr>
+            {% endfor %} 
           </tbody>
         </table>
       </div>
-      <div class="aid">
-        <div class="country">Republic of Korea</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">1,000,000</td>
-              <td>Accepted</td>
-              <td>Korean Red Cross</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Islamic Republic of Iran</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">1,000,000</td>
-              <td>Accepted</td>
-              <td rowspan="3">Ministry of Foreign Affairs(Iran)</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right">100,000</td>
-              <td>In Transit</td>
-            </tr>
-            <tr>
-              <td>Nucleic Acid Isolation or Purification Reagent</td>
-              <td style="text-align: right">30,000</td>
-              <td>In Transit</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Europe</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">3,500,000</td>
-              <td rowspan="2">Arrived</td>
-              <td rowspan="2">Italian Red Cross, <br/>Health Management Institute(INGESA) of the Ministry of Health of the Kingdom of Spain, <br/>Sciensano(Belgian institute for health)<br/>French Public Health Agency<br/>Department of Defense of Slovenia</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right">200,000</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">The United States</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">1,000,000</td>
-              <td>Accepted</td>
-              <td rowspan="2">Strategic National Stockpile U.S. Department of Health and Human Services</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right">500,000</td>
-              <td>300,000 Detection Kits [In Transit]，<br/>The Rest [Arrived]</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aid">
-        <div class="country">Republic of Rwanda</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right">30,000</td>
-              <td>In Transit</td>
-              <td rowspan="3">Rwanda Biomedical Centre </td>
-            </tr>
-            <tr>
-              <td>Nucleic Acid Isolation or Purification Reagent</td>
-              <td style="text-align: right">30,000</td>
-              <td>In Transit</td>
-            </tr>
-            <tr>
-              <td>NAT</td>
-              <td style="text-align: right">30,000</td>
-              <td>In Transit</td>
-            </tr>
-          </tbody>
-        </table>
+      {% endfor %} 
 
-        
-      </div>
-      <div class="aid">
-        <div class="country">Africa</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Face Mask</td>
-              <td style="text-align: right">6,000,000</td>
-              <td>In Transit</td>
-              <td rowspan="4">Recepient to be determined</td>
-            </tr>
-            <tr>
-              <td>Detection Kit</td>
-              <td style="text-align: right">1,100,000</td>
-              <td>In Transit</td>
-            </tr>
-            <tr>
-              <td>Medical use Protective Suit</td>
-              <td style="text-align: right">60,000</td>
-              <td>In Transit</td>
-            </tr>
-            <tr>
-              <td>Medical use Protective Face Shield</td>
-              <td style="text-align: right">60,000</td>
-              <td>In Transit</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
       <p>Note：</p>
       <p>Detection Kit：Detection Kit for 2019 Novel Coronavirus(COVID-19)RNA(PCR-Fluorescence Probing)</p>
       <p>Nucleic Acid Isolation or Purification Reagent: Used for steps of extraction, enrichment, purification,etc.of nucleic acid. Its processed product is used for clinical in vitro detection.</p>
