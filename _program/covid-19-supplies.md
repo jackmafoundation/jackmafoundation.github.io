@@ -3,6 +3,7 @@ layout: program
 title: "Financial Aid Programme for the Control and <br/>Prevention of COVID-19"
 cover: https://img.mayun.xin/upload/2020031723/3e084fc22806bc14657a41b0275a0c5b.jpg?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90/contrast,-60
 slogan: 
+last_modified_at: 2020-03-20 22:05:17 +0008
 permalink: /program/covid-19/supplies
 ---
 
