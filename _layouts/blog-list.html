@@ -5,11 +5,11 @@ layout: default
 {% include banner.html %}
 
 <div class="container page page-posts">
-	<div class="row">
-		<div class="col-sm-8" style="border-right: 1px solid #f0f0f0">
+	<!-- <div class="row"> -->
+		<!-- <div class="col-sm-8" style="border-right: 1px solid #f0f0f0"> -->
 			<div class="row">
 				{% for post in site.posts %}
-					<div class="col-sm-6">
+					<div class="col-sm-4">
 						<a class="news-card" href="{{ post.url }}" >
 							<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_600/');"></div>
 							<div class="content">
@@ -20,10 +20,10 @@ layout: default
 					</div>
 				{% endfor %}
 			</div>
-		</div>
-		<div class="col-sm-4">
+		<!-- </div> -->
+		<!-- <div class="col-sm-4">
 			<a class="twitter-timeline" height="800" href="https://twitter.com/foundation_ma?ref_src=twsrc%5Etfw">Tweets by Jack Ma Foundation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
+		</div> -->
 	</div>
 	
 	{{ content }}
