@@ -25,6 +25,7 @@ collections:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-admin
 
 
 defaults:
