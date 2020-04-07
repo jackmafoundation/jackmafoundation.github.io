@@ -438,7 +438,11 @@ img {
     }
 }
 
+
 .latest-news-section {
+    twitter-widget {
+        width: auto !important;
+    }
     .latest-news-card {
         background: white;
         overflow: hidden;
@@ -460,6 +464,12 @@ img {
         font-style: italic;
         margin-right: 40px;
     }
+    .tweets {
+        .SandboxRoot.env-bp-min .Tweet-card {
+            display: none;
+        }
+    }
+
     .news {
         float: left;
         line-height: 2.2;
@@ -1594,7 +1604,35 @@ img {
     .cbox {
         border: 1px solid #f3f3f3;
     }
+
+
+    .twitter-timeline-pc {
+        display: inline-block;
+
+        .col-sm-8 {
+            padding-right: 40px
+        }
+    }
+
+    .twitter-timeline-mobile {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        .twitter-timeline-mobile {
+            display: block;
+        }
+
+        .twitter-timeline-pc {
+            display: none;
+
+            .col-sm-8 {
+                padding: 0;
+            }
+        }
+    }
 }
+
 
 .news-card {
     margin: 20px 0;
