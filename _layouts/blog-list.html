@@ -9,10 +9,19 @@ layout: default
 		<div class="col-sm-4 twitter-timeline-mobile" style="margin-top: 10px;">
 			<a class="twitter-timeline" height="500" href="https://twitter.com/foundation_ma?ref_src=twsrc%5Etfw">Tweets by Jack Ma Foundation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
-		<div class="col-sm-8" style="border-right: 1px solid #f0f0f0;">
+		<div class="col-sm-8 post-list" style="border-right: 1px solid #f0f0f0;">
 			<div class="row">
 				{% for post in site.posts %}
 					<div class="col-sm-6">
+						{% if post.source %}
+						<a class="news-card" href="{{ post.source_url }}" target="_blank">
+							<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_600/');"></div>
+							<div class="content">
+							<div class="title"><span style="border-radius: 4px; background: #999; font-size: 14px; padding: 2px 6px; color: white; margin-right: 4px">{{ post.source }}</span> {{ post.title }}</div>
+							<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+							</div>
+						</a>
+						{% else %}
 						<a class="news-card" href="{{ post.url }}" >
 							<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_600/');"></div>
 							<div class="content">
@@ -20,6 +29,7 @@ layout: default
 							<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
 							</div>
 						</a>
+						{% endif %}
 					</div>
 				{% endfor %}
 			</div>
