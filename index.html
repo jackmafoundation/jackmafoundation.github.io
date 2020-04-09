@@ -55,7 +55,11 @@ layout: home
 			{% for post in site.posts limit:3 %}
 			<div class="news-item">
 				<span class="publish-date">{{ post.date | date: "%m-%d" }}</span>
+				{% if post.source %}
+				<a class="news-title" href="{{ post.source_url }}" target="_blank">{{ post.title }}</a>
+				{% else %}
 				<a class="news-title" href="{{ post.url }}">{{ post.title }}</a>
+				{% endif %}
 			</div>
 			{% endfor %}
 		</div>

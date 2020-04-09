@@ -299,13 +299,23 @@ permalink: /program/covid-19/fund
         {% if post.tags contains "COVID-19-Fund" %}
           {% assign counter=counter | plus:1 %}
           <div class="col-md-4">
-            <a class="news-card" href="{{ post.url }}" >
-              <div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_400/');"></div>
-              <div class="content">
-              <div class="title">{{ post.title }}</div>
-              <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
-              </div>
-            </a>
+            {% if post.source %}
+						<a class="news-card" href="{{ post.source_url }}" target="_blank">
+							<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_600/');"></div>
+							<div class="content">
+							<div class="title"><span style="border-radius: 4px; background: #999; font-size: 14px; padding: 2px 6px; color: white; margin-right: 4px">{{ post.source }}</span> {{ post.title }}</div>
+							<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+							</div>
+						</a>
+						{% else %}
+						<a class="news-card" href="{{ post.url }}" >
+							<div class="cover" style="background-image: url('{{ post.cover }}?x-oss-process=image/resize,w_600/');"></div>
+							<div class="content">
+							<div class="title">{{ post.title }}</div>
+							<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+							</div>
+						</a>
+						{% endif %}
           </div>
           {% if counter == 6%}
             {% break %}
