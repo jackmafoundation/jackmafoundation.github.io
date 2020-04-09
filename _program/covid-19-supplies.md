@@ -33,91 +33,12 @@ permalink: /program/covid-19/supplies
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>Since the global outbreak of COVID-19, the Jack Ma Foundation has been supporting those most affected countries. Together with Alibaba Foundation, we have sourced and donated millions of masks and other personal protective equipments. So far, we have donated masks and testing kits to Japan, South Korea, Iran, Italy, Spain, United States and Africa. We hope to continue to promptly deliver these medical supplies to those in need, and wish to offer our sincere thanks to all countries who have helped us.</p>
+      <p>Months ago, we have already experienced the difficulties of epidemic control that other countries are facing now. The Jack Ma Foundation knows very well what China needed and what was insufficient at the time, and these happen to be the urgent-needed supplies by many countries today. </p>
+      <p>From sourcing supplies from around the world to China, to raising and delivering supplies to more than 140 countries of five continents together with the Alibaba Foundaton, our donation decisions have always been based on the actual development of the pandemic in different regions. We have been adjusting the types and quantities of the donated supplies in order to truly meet the actual needs and resolve difficulties. </p>
+      <p>Time is life. Ensuring there are sufficient medical supplies is critical and we can’t wait under such circumstances. Every time we raise a batch of supplies, we ship them out as fast as we can.</p>
+      <p>One World, One Fight！</p>
     </div>
   </section>
-
-  <section class="odd">
-    <div class="section-heading"><h2>Donation Details</h2></div>
-    <div class="section-body container aids">
-
-      <div class="panel-group panel-supplies-group" id="accordion" role="tablist" aria-multiselectable="true">
-        {% for item in site.data.supplies %}
-        <div class="panel panel-default panel-country">
-            <div class="panel-heading" role="tab" id="heading-{{ forloop.index }}">
-                <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ forloop.index }}"  aria-controls="collapse-{{ forloop.index }}">
-                    <div class="country-name"><i class="fa fa-caret-down toggle-indicator-icon" aria-hidden="true"></i>{{ item.country }}</div>
-                    <!-- <div class="state">DONE</div> -->
-                    </a>
-                </h4>
-            </div>
-            <div id="collapse-{{ forloop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{ forloop.index }}">
-                <div class="panel-body">
-                    {% for supply in item.supplies %}
-                      <div class="supply-item">
-                        <div class="line">
-                            <span class="label">Goods</span>
-                            <span class="value">{{ supply.goods }}</span>
-                        </div>
-                        <div class="line">
-                            <span class="label">QTY(Piece)</span>
-                            <span class="value">{{ supply.qty }}</span>
-                        </div>
-                        <div class="line">
-                            <span class="label">Progress</span>
-                            <span class="value">{{ supply.progress }}</span>
-                        </div>
-                        <div class="line">
-                            <span class="label">Recepient</span>
-                            <span class="value">{{ supply.recepient }}</span>
-                        </div>
-                      </div>
-                      {% if forloop.index!=forloop.length %}
-                        <hr/>
-                      {% endif %} 
-                    {% endfor %} 
-                </div>
-            </div>
-        </div> 
-        {% endfor %} 
-      </div>
-
-
-
-      {% for item in site.data.supplies %}
-      <div class="aid">
-        <div class="country">{{ item.country }}</div>
-        <table>
-          <thead>
-            <tr>
-              <th class="c2">Goods</th>
-              <th class="c1" style="text-align: right">QTY(Piece)</th>
-              <th class="c2">Progress</th>
-              <th>Recepient</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for supply in item.supplies %}
-            <tr>
-              <td>{{ supply.goods }}</td>
-              <td style="text-align: right">{{ supply.qty }}</td>
-              <td>{{ supply.progress }}</td>
-              <td>{{ supply.recepient }}</td>
-            </tr>
-            {% endfor %} 
-          </tbody>
-        </table>
-      </div>
-      {% endfor %} 
-
-      <p>Note：</p>
-      <p>Detection Kit：Detection Kit for 2019 Novel Coronavirus(COVID-19)RNA(PCR-Fluorescence Probing)</p>
-      <p>Nucleic Acid Isolation or Purification Reagent: Used for steps of extraction, enrichment, purification,etc.of nucleic acid. Its processed product is used for clinical in vitro detection.</p>
-      <p>NAT：is intended for the collection and preservation of clinical specimens containing viruses or other pathogens.</p>
-    </div>
-  </section>
-
 
   <section class="even">
     <div class="section-heading"><h2>Related News</h2></div>
