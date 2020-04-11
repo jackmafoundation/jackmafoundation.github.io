@@ -33,9 +33,9 @@ permalink: /program/covid-19/supplies
   <section class="even" style="padding-top: 0">
     <div class="section-heading"><h2>Brief Introduction</h2></div>
     <div class="section-body container">
-      <p>Months ago, we have already experienced the difficulties of epidemic control that other countries are facing now. The Jack Ma Foundation knows very well what China needed and what was insufficient at the time, and these happen to be the urgent-needed supplies by many countries today. </p>
-      <p>From sourcing supplies from around the world to China, to raising and delivering supplies to more than 140 countries of five continents together with the Alibaba Foundaton, our donation decisions have always been based on the actual development of the pandemic in different regions. We have been adjusting the types and quantities of the donated supplies in order to truly meet the actual needs and resolve difficulties. </p>
-      <p>Time is life. Ensuring there are sufficient medical supplies is critical and we can’t wait under such circumstances. Every time we raise a batch of supplies, we ship them out as fast as we can.</p>
+      <p>Months ago, we already experienced the difficulties of epidemic control that other countries are facing now. The Jack Ma Foundation knows very well what China needed and what was insufficient at the time, and these happen to be the urgent-needed supplies by many countries today. </p>
+      <p>From sourcing supplies from around the world to China, to raising and delivering supplies to more than 140 countries of five continents together with the Alibaba Foundation,  we have always based our donation decisions on the actual development of the pandemic in different regions. We have been adjusting the types and quantities of the donated supplies to meet the practical needs and resolve difficulties truly. </p>
+      <p>Time is life. Ensuring there are sufficient medical supplies is critical, and we can’t wait under such circumstances. Every time we raise a batch of supplies, we ship them out as fast as we can.</p>
       <p>One World, One Fight！</p>
     </div>
   </section>
