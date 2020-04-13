@@ -250,8 +250,29 @@ img {
     vertical-align: middle;
 }
 
+
+.home-swiper {
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-background {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    -webkit-filter: blur(70px);
+    -moz-filter: blur(70px);
+    -o-filter: blur(70px);
+    -ms-filter: blur(70px);
+    filter: blur(70px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='70');
+}
+
 .swiper-container {
     width: 100%;
+    max-width: 1440px;
     height: 100%;
 
     .swiper-slide {
@@ -263,7 +284,7 @@ img {
 
         .swiper-image {
             width: 100%;
-            height: 640px;
+            height: 600px;
             background-position: center;
             background-size: cover;
             

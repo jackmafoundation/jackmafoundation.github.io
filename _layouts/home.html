@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
+  <div style="position: relative">
     {% include header.html %}
-
-    <!-- <div class="index-banner">
-        <div class="slide-image" style="background-image: url(https://img.mayun.xin/upload/2020031606/ea736caee7c07d6fbaed0b42a059cdd1.JPG?x-oss-process=image/resize,w_1600,limit_0/format,jpg/quality,Q_90);"></div>
-            <div class="slide-content container">
-                <p class="slogan" >Sharing and Cooperation is the Best Prescription</p>
-                <p class="slogan-description">Financial Aid Programme for the Control and Prevention of COVID-19</p>
-                <a href="/program/covid-19/fund" class="btn btn-round slogan-info" role="button">LEARN MORE</a>
-            </div>
-        </div>
-    </div> -->
-
-    
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-      <a class="swiper-slide" href="https://covid-19.alibabacloud.com/#J_8102420620">
-        <div class="swiper-image" style="background-image: url(https://img.mayun.xin/upload/2020031709/b8b62518694bf0aae26cc9b7c0e17050.jpg?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
-        <div class="swiper-content container">
-        </div>
-      </a>
-      <div class="swiper-slide">
-        <div class="swiper-image" style="background-image: url(https://img.mayun.xin/upload/2020032602/eb523ea641976796c6000a763c7825f5.jpg?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
-        <div class="swiper-content container">
-                <p class="slogan">The Chinese Telemedicine Team Is Here<br/> to Help Fight against COVID-19</p>
-                <p class="slogan-description">International Medical Expert Communication Center is offically launched</p>
-                <a href="https://covid-19.alibabacloud.com/#J_7231040460" class="btn btn-round slogan-info" role="button">LEARN MORE</a>
-        </div>
-      </div>
-      <!-- <div class="swiper-slide">
-        <div class="swiper-image" style="background-image: url(https://img.mayun.xin/upload/2020032302/ee94182276d2b6ea0d82210d21066f6e.jpg?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
-        <div class="swiper-content container">
-                <p class="slogan">Chinese Online COVID-19 Consultation</p>
-                <p class="slogan-description">Hero Doctors Who Came  Back from the Front Line are <br/>Helping the Fight against COVID-19</p>
-                <a href="https://covid-19.alibabacloud.com/#J_6259459130" class="btn btn-round slogan-info" role="button">LEARN MORE</a>
-        </div>
-      </div> -->
-      <div class="swiper-slide">
-        <div class="swiper-image mask" style="background-image: url(https://img.mayun.xin/upload/2020031723/3e084fc22806bc14657a41b0275a0c5b.jpg?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
-        <div class="swiper-content container">
-                <p class="slogan" >Sharing and Collaboration are the Best Prescription</p>
-                <p class="slogan-description">Financial Aid Programme for the Control and Prevention of COVID-19</p>
-                <a href="/program/covid-19/supplies" class="btn btn-round slogan-info" role="button">LEARN MORE</a>
-        </div>
-	    </div>
-	</div>
-	<div class="swiper-pagination"></div>
   </div>
 
-    <div class="page-content" style="margin-top: -60px">
-      {{ content }}
+  <div class="home-swiper">
+    <div class="swiper-background" style="background-image: url(https://img.mayun.xin/upload/2020041310/1d0d35cf795708dcd2b4d68839e098b7.jpg?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for slide in site.data.slides %}
+          <div class="swiper-slide">
+            {% if slide.title %}
+              <div class="swiper-image mask" style="background-image: url({{ slide.image }}?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
+            {% else %}
+              <div class="swiper-image" style="background-image: url({{ slide.image }}?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
+            {% endif %}
+            <div class="swiper-content container">
+              <p class="slogan">{{ slide.title }}</p>
+              <p class="slogan-description">{{ slide.description }}</p>
+              {% if slide.title %}
+                <a href="{{ slide.url }}" class="btn btn-round slogan-info" role="button">LEARN MORE</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
+  </div>
 
-    {% include footer.html %}
+  <div class="page-content" style="margin-top: -60px">
+    {{ content }}
+  </div>
 
-  </body>
+  <script src="{{ "assets/swiper/js/swiper.min.js" | prepend: site.qiniu }}"></script>
+
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+      swiper.on('slideChange', function () {
+        var slides = {{ site.data.slides | jsonify }}
+        var activeImage = slides[swiper.realIndex]['image']
+        console.log(swiper.realIndex)
+        console.log(activeImage)
+        $(".swiper-background").attr("style", "background-image: url(" + activeImage + "?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90)")
+      });
+  </script>
+
+  {% include footer.html %}
+
+</body>
 
 </html>

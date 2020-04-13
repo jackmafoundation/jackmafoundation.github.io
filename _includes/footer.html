@@ -22,7 +22,6 @@
 
 <script src="{{ "assets/bootstrap/js/jquery.min.js" | prepend: site.qiniu }}"></script>
 <script src="{{ "assets/bootstrap/js/bootstrap.min.js" | prepend: site.qiniu }}"></script>
-<script src="{{ "assets/swiper/js/swiper.min.js" | prepend: site.qiniu }}"></script>
 
 
 <script>
@@ -33,17 +32,21 @@
       $(e).addClass("field-active")
 	  })
 
-    var swiper = new Swiper('.swiper-container', {
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
+    // var swiper = new Swiper('.swiper-container', {
+    //   loop: true,
+    //   autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    //   },
+    // });
+
+    // swiper.on('slideChange', function () {
+    //   console.log('slide changed');
+    // });
 
 	  // $('.tab').click(function(){
     //   var e=this;
