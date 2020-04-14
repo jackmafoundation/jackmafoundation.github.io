@@ -55,8 +55,6 @@
       swiper.on('slideChange', function () {
         var slides = {{ site.data.slides | jsonify }}
         var activeImage = slides[swiper.realIndex]['image']
-        console.log(swiper.realIndex)
-        console.log(activeImage)
         $(".swiper-background").attr("style", "background-image: url(" + activeImage + "?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90)")
       });
   </script>

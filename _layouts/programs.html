@@ -20,7 +20,13 @@ layout: default
         </div>
         {% for program in domain.members %}
           <div class="program-item">
-            <div class="cover" style="background-image: url('{{ program.cover }}')"></div>
+            {% if program.video %}
+              <video class="cover" width="360" height="240" controls="false" poster="https://img.mayun.xin/upload/2020031517/050855c0714cd2e09692e9cf91ea2ab4.JPG">
+                <source src="https://vod.mayun.xin/1d39dd536df34c23aae02e95f1b667e5/f57ef1609fe64857a5c408b5d336e25d-ad9559b7bee8c95c9b77caa9b69bb4d1-sd.mp4" type="video/mp4">
+              </video>
+            {% else %}
+              <div class="cover" style="background-image: url('{{ program.cover }}')" data-toggle="modal" data-target="#myModal"></div>
+            {% endif %}
             <div class="content">
               <h3 class="title">{{ program.title }}</h3>
               {% if program.slogan %}
@@ -39,7 +45,7 @@ layout: default
         {{ content }}
       </article>
     </div>
-    
+
     <div class="right sidebar" style="display: none;">
       <div class="cbox">
     		<ul>
@@ -53,6 +59,7 @@ layout: default
         </ul>
       </div>
 
-  	</div>
+    </div>
+    
 
 </div>
