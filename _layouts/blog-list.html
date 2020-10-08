@@ -12,6 +12,7 @@ layout: default
 		<div class="col-sm-8 post-list" style="border-right: 1px solid #f0f0f0;">
 			<div class="row">
 				{% for post in site.posts %}
+					{% if !post.draft %}
 					<div class="col-sm-6">
 						{% if post.source %}
 						<a class="news-card" href="{{ post.source_url }}" target="_blank">
@@ -31,6 +32,7 @@ layout: default
 						</a>
 						{% endif %}
 					</div>
+					{% endif %}
 				{% endfor %}
 			</div>
 		</div>
