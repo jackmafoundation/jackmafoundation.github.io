@@ -15,7 +15,7 @@ The Earthshot Prize, spearheaded by Prince William and the Royal Foundation, is 
 
 Every year, five winners will be awarded 1 million pounds each to carry out their environmental research and endeavors. They will also receive the support needed to scale their solutions with businesses and government entities. 
 
-"We only have one Earth in this world and the pandemic has made it clear that mankind cannot live without the Earth, but that Earth can live without mankind. Today we all live in the same forest that is already on fire. If we work together, we can all do a little bit today and overcome our challenges," said Alibaba Group and Jack Ma Foundation founder Jack Ma, who has joined as a Global Alliance Founding Partner to the prize alongside Jack Ma Foundation.
+“We only have one Earth in this world and the pandemic has made it clear that mankind cannot live without the Earth, but that Earth can live without mankind. Today we all live in the same forest that is already on fire. If we work together, we can all do a little bit today and overcome our challenges,” said Alibaba Group and Jack Ma Foundation founder Jack Ma, who has joined as a Global Alliance Founding Partner to the prize alongside Jack Ma Foundation and the Paradise Foundation.
 
 The initiative's name is inspired by John F. Kennedy's "moonshot" ambition to accelerate new ideas and innovations by putting man on the moon by the end of 1960s.
 
