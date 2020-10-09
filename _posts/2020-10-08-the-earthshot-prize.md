@@ -7,11 +7,11 @@ draft: true
 tags: [Earthshot Prize]
 ---
 
-![](https://img.mayun.xin/upload/2020100812/4c7ec866dedec19bbeff8ea5e6e904ed.jpg)
-
 The Jack Ma Foundation on October 8, 2020 pledged an initial donation of three million pounds ($3.8 million) to support one of the most prestigious global environment initiatives in history.
 
 The Earthshot Prize, spearheaded by Prince William and the Royal Foundation, is a 10-year commitment to fund at least 50 solutions for some of the world's most complicated and pressing environmental issues. The initiative aims to combat challenges across five major areas, including climate and energy, nature and biodiversity, oceans, air pollution and fresh water. 
+
+![](https://img.mayun.xin/upload/2020100812/4c7ec866dedec19bbeff8ea5e6e904ed.jpg)
 
 Every year, five winners will be awarded 1 million pounds each to carry out their environmental research and endeavors. They will also receive the support needed to scale their solutions with businesses and government entities. 
 
@@ -28,6 +28,3 @@ Ma will also be involved as an Earthshot Prize Council Member, who will help sel
 Nominations for the prize will open on Nov. 1. Anyone – from individuals to teams and collaborations – with a workable, evidence-based solution is invited to apply.  
 
 For more information, visit: [https://earthshotprize.org/](https://earthshotprize.org/)
-
-
-<iframe height="498" width="510" src='https://player.youku.com/embed/XNDg5NTI3NTg3Mg==' frameborder=0 'allowfullscreen'></iframe>
