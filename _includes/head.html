@@ -10,16 +10,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="//img.mayun.xin/upload/2018052909/681fabfbd012b584c38affd229f17a6e.png">
   <link rel="icon" type="image/png" sizes="16x16" href="//img.mayun.xin/upload/2018052909/6a090c43dee2aaaaa71f3a62fcbc46ce.png">
   <link rel="shortcut icon" href="//img.mayun.xin/upload/2018052909/9823185cefe8dc79ef1eff8f93fc2f8b.ico">
-  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:url" content="{{ page.url }}" />
   <meta property="og:image" content="https://static.mayun.xin/300logo.png" />
-  <meta property="og:description" content="{{ site.description }}" /> 
   <meta property="og:site_name" content="{{ site.title }}" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@foundation_ma">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:description" content="{{ site.description }}" /> 
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:image" content="https://static.mayun.xin/300logo.png">
 
   <meta name="keywords" content="Jack Ma Foundation, Jack Ma, 马云公益基金会, jackmafoundation.org.cn, Mayun">
