@@ -29,4 +29,5 @@ Nominations for the prize will open on Nov. 1. Anyone – from individuals to te
 
 For more information, visit: [https://earthshotprize.org/](https://earthshotprize.org/)
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDg5NTI3NTg3Mg==' frameborder=0 'allowfullscreen'></iframe>
+
+<iframe height="498" width="510" src='https://player.youku.com/embed/XNDg5NTI3NTg3Mg==' frameborder=0 'allowfullscreen'></iframe>
