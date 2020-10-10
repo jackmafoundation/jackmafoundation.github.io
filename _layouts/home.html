@@ -10,24 +10,26 @@
   </div>
 
   <div class="home-swiper">
-    <div class="swiper-background" style="background-image: url(https://img.mayun.xin/upload/2020041310/1d0d35cf795708dcd2b4d68839e098b7.jpg?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
+    <div class="swiper-background" style="background-image: url({{ slide.image }}?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         {% for slide in site.data.slides %}
-          <div class="swiper-slide">
-            {% if slide.title %}
+          <a class="swiper-slide" href="{{ slide.url }}" >
+            <div class="swiper-image pc" style="background-image: url({{ slide.image }})"></div>
+            <div class="swiper-image mobile" style="background-image: url({{ slide.image-mobile }})"></div>
+            <!-- {% if slide.title %}
               <div class="swiper-image mask" style="background-image: url({{ slide.image }}?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
             {% else %}
               <div class="swiper-image" style="background-image: url({{ slide.image }}?x-oss-process=image/resize,w_2000,limit_0/format,jpg/quality,Q_90);"></div>
-            {% endif %}
-            <div class="swiper-content container">
+            {% endif %} -->
+            <!-- <div class="swiper-content container">
               <p class="slogan">{{ slide.title }}</p>
               <p class="slogan-description">{{ slide.description }}</p>
               {% if slide.title %}
-                <a href="{{ slide.url }}" class="btn btn-round slogan-info" role="button">LEARN MORE</a>
+                <a href="{{ slide.url }}" class="btn btn-round slogan-info" role="button">了解更多</a>
               {% endif %}
-            </div>
-          </div>
+            </div> -->
+          </a>
         {% endfor %}
       </div>
       <div class="swiper-pagination"></div>

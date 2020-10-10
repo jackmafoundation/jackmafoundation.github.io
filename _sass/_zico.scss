@@ -309,6 +309,13 @@ img {
                 bottom: 0;
                 background: rgba(54, 61, 77, 0.5);
             }
+
+            &.pc {
+                display: block;
+              }
+            &.mobile {
+                display: none;
+            }
         }
 
         .swiper-content {
@@ -364,6 +371,12 @@ img {
                 height: 400px;
                 &.mask::after {
                     background: rgba(54, 61, 77, 0.6);
+                }
+                &.pc {
+                    display: none;
+                  }
+                &.mobile {
+                    display: block;
                 }
             }
             .swiper-content {
