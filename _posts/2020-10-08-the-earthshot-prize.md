@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Jack Ma Foundation Joins Forces with Prince William to Support the Earthshot Prize
-cover: https://img.mayun.xin/upload/2020100811/04a59505ee82aea4d93c83372b5f5954.jpg
+cover: https://img.mayun.xin/upload/2020101009/d639976505c931bd72f2ab1cd992808e.jpg
 permalink: /blog/joins-forces-with-prince-william-to-support-the-earthshot-prize/
 tags: [Earthshot Prize]
 ---
